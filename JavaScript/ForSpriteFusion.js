@@ -1,6 +1,5 @@
 function typeweak() {
 
-
     var elem = document.getElementById('type1').src;
     var file = elem.replace(/^.*[\\\/]/, "")
     var elem2 = document.getElementById('type2').src;
