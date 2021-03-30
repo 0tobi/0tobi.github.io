@@ -3749,6 +3749,7 @@ function iconNormal1() {
   var iconaltform4res1 = iconaltform4.substr(58);
   var iconaltform5 = document.getElementById("icon1-altform5").src;
   var iconaltform5res1 = iconaltform5.substr(58);
+  console.log(iconmega1);
   document.getElementById("icon1-mega").src = "../icons/" + iconmegares1;
   document.getElementById("icon1-alola").src = "../icons/" + iconalolares1;
   document.getElementById("icon1-galar").src = "../icons/" + icongalarres1;
@@ -5261,6 +5262,7 @@ function iconNormal2() {
   var iconaltform4res1 = iconaltform4.substr(58);
   var iconaltform5 = document.getElementById("icon2-altform5").src;
   var iconaltform5res1 = iconaltform5.substr(58);
+  console.log(iconmega1);
   document.getElementById("icon2-mega").src = "../icons/" + iconmegares1;
   document.getElementById("icon2-alola").src = "../icons/" + iconalolares1;
   document.getElementById("icon2-galar").src = "../icons/" + icongalarres1;
