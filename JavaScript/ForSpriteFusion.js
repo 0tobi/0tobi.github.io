@@ -3713,7 +3713,7 @@ function iconNormal1() {
     var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
   var iconalola1 = document.getElementById("icon1-alola").src;
   var iconalolares1 = iconalola1.substr(58);
-  var iconmega1 = document.getElementById("icon1-mega").src;
+  var - = document.getElementById("icon1-mega").src;
   var iconmegares1 = iconmega1.substr(58);
   var icongalar1 = document.getElementById("icon1-galar").src;
   var icongalarres1 = icongalar1.substr(58);
@@ -4410,7 +4410,8 @@ function iconMega1() {
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
   console.log(alolapic2);
-  var alolares1 = alolapic2.substr(57);
+  var alolares1 = alolapic2.substr(59);
+  console.log(alolares1);
   var alolares4 = alolapic3.substr(66);
   var alolares3 = alolares1.replace(".png", "m.png");
   var alolares5 = alolares4.replace(/.png|m.png/, "m.png");
