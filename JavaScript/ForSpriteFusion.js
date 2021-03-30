@@ -3745,7 +3745,7 @@ function iconNormal1() {
   document.getElementById("megaoui").innerHTML = "";
   document.getElementById("galar").innerHTML = "";
   document.getElementById("megaouixy").innerHTML = "";
-  document.getElementById("gigamax").innerHTML = "";
+  document.getElementById("Gigantamax").innerHTML = "";
   document.getElementById("select1").disabled = false;
   document.getElementById("select2").disabled = false;
   document.getElementById("icon1").style.display = "none";
@@ -4579,7 +4579,7 @@ function iconGigan1() {
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("gigamax").innerHTML = " Gigamax";
+  document.getElementById("Gigantamax").innerHTML = " Gigantamax";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon1-gigan").style.display = "none";
@@ -5257,7 +5257,7 @@ function iconNormal2() {
   document.getElementById("megaoui").innerHTML = "";
   document.getElementById("galar").innerHTML = "";
   document.getElementById("megaouixy").innerHTML = "";
-  document.getElementById("gigamax").innerHTML = "";
+  document.getElementById("Gigantamax").innerHTML = "";
   document.getElementById("select1").disabled = false;
   document.getElementById("select2").disabled = false;
   document.getElementById("icon2").style.display = "none";
@@ -6077,7 +6077,7 @@ function iconGigan2() {
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic2").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("gigamax").innerHTML = " Gigamax";
+  document.getElementById("Gigantamax").innerHTML = " Gigantamax";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon2-gigan").style.display = "none";
