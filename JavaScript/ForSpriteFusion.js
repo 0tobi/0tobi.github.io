@@ -3713,7 +3713,7 @@ function iconNormal1() {
     var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
   var iconalola1 = document.getElementById("icon1-alola").src;
   var iconalolares1 = iconalola1.substr(58);
-  var - = document.getElementById("icon1-mega").src;
+  var iconmega1 = document.getElementById("icon1-mega").src;
   var iconmegares1 = iconmega1.substr(58);
   var icongalar1 = document.getElementById("icon1-galar").src;
   var icongalarres1 = icongalar1.substr(58);
