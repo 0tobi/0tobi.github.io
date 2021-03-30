@@ -4413,8 +4413,8 @@ function iconMega1() {
   var alolares4 = alolapic3.substr(66);
   var alolares3 = alolares1.replace(".png", "m.png");
   var alolares5 = alolares4.replace(/.png|m.png/, "m.png");
-  document.getElementById("pic1").src = "../sprites/" + alolares3;
-  document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
+  document.getElementById("pic1").src = "sprites/" + alolares3;
+  document.getElementById("pic3").src = "sprites/fused/" + alolares5;
   document.getElementById("megaoui").innerHTML = "Mega ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
