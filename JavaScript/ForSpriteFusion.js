@@ -3749,8 +3749,6 @@ function iconNormal1() {
   var iconaltform4res1 = iconaltform4.substr(30);
   var iconaltform5 = document.getElementById("icon1-altform5").src;
   var iconaltform5res1 = iconaltform5.substr(30);
-  console.log(iconmega1);
-  console.log(iconmegares1);
   document.getElementById("icon1-mega").src = "../icons/" + iconmegares1;
   document.getElementById("icon1-alola").src = "../icons/" + iconalolares1;
   document.getElementById("icon1-galar").src = "../icons/" + icongalarres1;
@@ -4410,7 +4408,6 @@ function iconMega1() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  console.log(alolapic2);
   var alolares1 = alolapic2.substr(32);
   var alolares4 = alolapic3.substr(66);
   var alolares3 = alolares1.replace(".png", "m.png");
@@ -4698,7 +4695,7 @@ function iconGalar1() {
 
   var galarpic2 = document.getElementById("pic1").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substr(60);
+  var galarres1 = galarpic2.substr(32);
   var galarres4 = galarpic3.substr(66);
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
@@ -4775,7 +4772,7 @@ function iconGalarMiaouss() {
 
   var galarpic2 = document.getElementById("pic1").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substr(60);
+  var galarres1 = galarpic2.substr(32);
   var galarres4 = galarpic3.substr(66);
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
@@ -5263,7 +5260,6 @@ function iconNormal2() {
   var iconaltform4res1 = iconaltform4.substr(30);
   var iconaltform5 = document.getElementById("icon2-altform5").src;
   var iconaltform5res1 = iconaltform5.substr(30);
-  console.log(iconmega1);
   document.getElementById("icon2-mega").src = "../icons/" + iconmegares1;
   document.getElementById("icon2-alola").src = "../icons/" + iconalolares1;
   document.getElementById("icon2-galar").src = "../icons/" + icongalarres1;
@@ -6195,7 +6191,7 @@ function iconGalar2() {
 
   var galarpic2 = document.getElementById("pic2").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substr(60);
+  var galarres1 = galarpic2.substr(32);
   var galarres4 = galarpic3.substr(66);
   var alolares3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
@@ -6262,7 +6258,7 @@ function iconGalarMiaouss2() {
 
   var galarpic2 = document.getElementById("pic2").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substr(60);
+  var galarres1 = galarpic2.substr(32);
   var galarres4 = galarpic3.substr(66);
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
