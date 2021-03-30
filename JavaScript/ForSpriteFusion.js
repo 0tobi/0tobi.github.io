@@ -4,6 +4,7 @@ function typeweak() {
     var file = elem.replace(/^.*[\\\/]/, "")
     var elem2 = document.getElementById('type2').src;
     var file2 = elem2.replace(/^.*[\\\/]/, "")
+    console.log(elem2);
   
   if (file == "Plante.png" && file2 == "Poison.png" || file == "Poison.png" && file2 == "Plante.png" ) {
   
