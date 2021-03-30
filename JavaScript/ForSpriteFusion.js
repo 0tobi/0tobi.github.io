@@ -4578,7 +4578,7 @@ function iconGigan1() {
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("Gigantamax").innerHTML = " Gigantamax";
+  document.getElementById("Gigantamax").innerHTML = " Gigantamax ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon1-gigan").style.display = "none";
@@ -6076,7 +6076,7 @@ function iconGigan2() {
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic2").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("Gigantamax").innerHTML = " Gigantamax";
+  document.getElementById("Gigantamax").innerHTML = " Gigantamax ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon2-gigan").style.display = "none";
