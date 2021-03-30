@@ -3613,63 +3613,63 @@ function iconAlola1() {
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("alola").innerHTML = " d'Alola";
+  document.getElementById("alola").innerHTML = "Alolan ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon1-alola").style.display = "none";
   document.getElementById("icon1").style.display = "block";
 
   if (alolares3 === "19a.png") {
-        document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type1").src = "../types/" + "Tenebres.png";
         document.getElementById("select1").value = "19a";
       } else if (alolares3 === "50a.png") {
-        document.getElementById("type1").src = "../Type/" + "Sol.png";
+        document.getElementById("type1").src = "../types/" + "Sol.png";
         document.getElementById("select1").value = "50a";
       } else if (alolares3 === "103a.png") {
-        document.getElementById("type1").src = "../Type/" + "Plante.png";
+        document.getElementById("type1").src = "../types/" + "Plante.png";
         document.getElementById("select1").value = "103a";
       } else if (alolares3 === "75a.png") {
-        document.getElementById("type1").src = "../Type/" + "Roche.png";
+        document.getElementById("type1").src = "../types/" + "Roche.png";
         document.getElementById("select1").value = "75a";
       } else if (alolares3 === "76a.png") {
-        document.getElementById("type1").src = "../Type/" + "Roche.png";
+        document.getElementById("type1").src = "../types/" + "Roche.png";
         document.getElementById("select1").value = "76a";
       } else if (alolares3 === "74a.png") {
-        document.getElementById("type1").src = "../Type/" + "Roche.png";
+        document.getElementById("type1").src = "../types/" + "Roche.png";
         document.getElementById("select1").value = "74a";
       } else if (alolares3 === "38a.png") {
-        document.getElementById("type1").src = "../Type/" + "Glace.png";
+        document.getElementById("type1").src = "../types/" + "Glace.png";
         document.getElementById("select1").value = "38a";
       } else if (alolares3 === "53a.png") {
-        document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type1").src = "../types/" + "Tenebres.png";
         document.getElementById("select1").value = "53a";
       } else if (alolares3 === "28a.png") {
-        document.getElementById("type1").src = "../Type/" + "Glace.png";
+        document.getElementById("type1").src = "../types/" + "Glace.png";
         document.getElementById("select1").value = "28a";
       } else if (alolares3 === "105a.png") {
-        document.getElementById("type1").src = "../Type/" + "Spectre.png";
+        document.getElementById("type1").src = "../types/" + "Spectre.png";
         document.getElementById("select1").value = "105a";
       } else if (alolares3 === "37a.png") {
-        document.getElementById("type1").src = "../Type/" + "Glace.png";
+        document.getElementById("type1").src = "../types/" + "Glace.png";
         document.getElementById("select1").value = "37a";
       } else if (alolares3 === "20a.png") {
-        document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type1").src = "../types/" + "Tenebres.png";
         document.getElementById("select1").value = "20a";
       } else if (alolares3 === "27a.png") {
-        document.getElementById("type1").src = "../Type/" + "Glace.png";
+        document.getElementById("type1").src = "../types/" + "Glace.png";
         document.getElementById("select1").value = "27a";
       } else if (alolares3 === "52a.png") {
-        document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type1").src = "../types/" + "Tenebres.png";
         document.getElementById("select1").value = "52a";
       } else if (alolares3 === "88a.png") {
         document.getElementById("select1").value = "88a";
       } else if (alolares3 === "89a.png") {
         document.getElementById("select1").value = "89a";
       } else if (alolares3 === "51a.png") {
-        document.getElementById("type1").src = "../Type/" + "Sol.png";
+        document.getElementById("type1").src = "../types/" + "Sol.png";
         document.getElementById("select1").value = "51a";
       } else if (alolares3 === "26a.png") {
-        document.getElementById("type1").src = "../Type/" + "Elec.png";
+        document.getElementById("type1").src = "../types/" + "Elec.png";
         document.getElementById("select1").value = "26a";
       }
     typeweak();
@@ -3686,7 +3686,7 @@ function iconAlolaMiaouss() {
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("alola").innerHTML = " d'Alola";
+  document.getElementById("alola").innerHTML = "Alolan ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon1-alola1").style.display = "none";
@@ -3695,7 +3695,7 @@ function iconAlolaMiaouss() {
   document.getElementById("icon1").style.display = "block";
 
   if (alolares3 === "52a.png") {
-        document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type1").src = "../types/" + "Tenebres.png";
         document.getElementById("select1").value = "52a";
       }
     typeweak();
@@ -3711,33 +3711,33 @@ function iconNormal1() {
     var res7 = res5.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
     var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
   var iconalola1 = document.getElementById("icon1-alola").src;
-  var iconalolares1 = iconalola1.substr(58);
+  var iconalolares1 = iconalola1.substr(30);
   var iconmega1 = document.getElementById("icon1-mega").src;
-  var iconmegares1 = iconmega1.substr(58);
+  var iconmegares1 = iconmega1.substr(30);
   var icongalar1 = document.getElementById("icon1-galar").src;
-  var icongalarres1 = icongalar1.substr(58);
+  var icongalarres1 = icongalar1.substr(30);
   var iconmegax1 = document.getElementById("icon1-megax").src;
-  var iconmegaxres1 = iconmegax1.substr(58);
+  var iconmegaxres1 = iconmegax1.substr(30);
   var iconmegay1 = document.getElementById("icon1-megay").src;
-  var iconmegayres1 = iconmegay1.substr(58);
+  var iconmegayres1 = iconmegay1.substr(30);
   var icon1galar1 = document.getElementById("icon1-galar1").src;
-  var icon1galarres1 = icon1galar1.substr(58);
+  var icon1galarres1 = icon1galar1.substr(30);
   var icon1alola1 = document.getElementById("icon1-alola1").src;
-  var icon1alolares1 = icon1alola1.substr(58);
+  var icon1alolares1 = icon1alola1.substr(30);
   var icongigan1 = document.getElementById("icon1-gigan").src;
-  var icongiganres1 = icongigan1.substr(58);
+  var icongiganres1 = icongigan1.substr(30);
   var iconaltform1 = document.getElementById("icon1-altform").src;
-  var iconaltformres1 = iconaltform1.substr(58);
+  var iconaltformres1 = iconaltform1.substr(30);
   var iconaltform2 = document.getElementById("icon1-altform2").src;
-  var iconaltform2res1 = iconaltform2.substr(58);
+  var iconaltform2res1 = iconaltform2.substr(30);
   var iconaltgalarform2 = document.getElementById("icon1-altgalarform2").src;
-  var iconaltgalarform2res1 = iconaltgalarform2.substr(58);
+  var iconaltgalarform2res1 = iconaltgalarform2.substr(30);
   var iconaltform3 = document.getElementById("icon1-altform3").src;
-  var iconaltform3res1 = iconaltform3.substr(58);
+  var iconaltform3res1 = iconaltform3.substr(30);
   var iconaltform4 = document.getElementById("icon1-altform4").src;
-  var iconaltform4res1 = iconaltform4.substr(58);
+  var iconaltform4res1 = iconaltform4.substr(30);
   var iconaltform5 = document.getElementById("icon1-altform5").src;
-  var iconaltform5res1 = iconaltform5.substr(58);
+  var iconaltform5res1 = iconaltform5.substr(30);
   document.getElementById("pic1").src = "../sprites/" + res7;
   document.getElementById("pic3").src = "../sprites/fused/" + res10;
   document.getElementById("select1").value = res7;
@@ -3770,46 +3770,46 @@ if (iconalolares1 == "19a.png" || iconalolares1 == "20a.png" || iconalolares1 ==
   document.getElementById("icon1-alola").style.display = "block";
 
    if (res7 === "19.png") {
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
     document.getElementById("select1").value = "19";
   } else if (res7 === "50.png") {
-    document.getElementById("type1").src = "../Type/" + "Sol.png";
+    document.getElementById("type1").src = "../types/" + "Sol.png";
     document.getElementById("select1").value = "50";
   } else if (res7 === "103.png") {
-    document.getElementById("type1").src = "../Type/" + "Plante.png";
+    document.getElementById("type1").src = "../types/" + "Plante.png";
     document.getElementById("select1").value = "103";
   } else if (res7 === "75.png") {
-    document.getElementById("type1").src = "../Type/" + "Roche.png";
+    document.getElementById("type1").src = "../types/" + "Roche.png";
     document.getElementById("select1").value = "75";
   } else if (res7 === "74.png") {
-    document.getElementById("type1").src = "../Type/" + "Roche.png";
+    document.getElementById("type1").src = "../types/" + "Roche.png";
     document.getElementById("select1").value = "74";
   } else if (res7 === "38.png") {
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
     document.getElementById("select1").value = "38";
   } else if (res7 === "53.png") {
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
     document.getElementById("select1").value = "53";
   } else if (res7 === "28.png") {
-    document.getElementById("type1").src = "../Type/" + "Sol.png";
+    document.getElementById("type1").src = "../types/" + "Sol.png";
     document.getElementById("select1").value = "28";
   } else if (res7 === "105.png") {
-    document.getElementById("type1").src = "../Type/" + "Sol.png";
+    document.getElementById("type1").src = "../types/" + "Sol.png";
     document.getElementById("select1").value = "105";
   } else if (res7 === "37.png") {
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
     document.getElementById("select1").value = "37";
   } else if (res7 === "20.png") {
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
     document.getElementById("select1").value = "20";
   } else if (res7 === "27.png") {
-    document.getElementById("type1").src = "../Type/" + "Sol.png";
+    document.getElementById("type1").src = "../types/" + "Sol.png";
     document.getElementById("select1").value = "27";
   } else if (res7 === "26.png") {
-    document.getElementById("type1").src = "../Type/" + "Elec.png";
+    document.getElementById("type1").src = "../types/" + "Elec.png";
     document.getElementById("select1").value = "26";
   } else if (res7 === "76.png") {
-    document.getElementById("type1").src = "../Type/" + "Roche.png";
+    document.getElementById("type1").src = "../types/" + "Roche.png";
     document.getElementById("select1").value = "76";
   } else if (res7 === "51.png") {
     document.getElementById("select1").value = "51";
@@ -3974,58 +3974,58 @@ if (icongalarres1 == "144g.png" || icongalarres1 == "145g.png" || icongalarres1 
  document.getElementById("icon1-galar").style.display = "block";
 
   if (res7 === "77.png") {
-  document.getElementById("type1").src = "../Type/" + "Feu.png";
+  document.getElementById("type1").src = "../types/" + "Feu.png";
   document.getElementById("select1").value = "77";
 } else if (res7 === "110.png") {
-  document.getElementById("type1").src = "../Type/" + "Poison.png";
+  document.getElementById("type1").src = "../types/" + "Poison.png";
   document.getElementById("select1").value = "110";
 } else if (res7 === "554.png") {
-  document.getElementById("type1").src = "../Type/" + "Feu.png";
+  document.getElementById("type1").src = "../types/" + "Feu.png";
   document.getElementById("select1").value = "554";
 } else if (res7 === "555.png") {
-  document.getElementById("type1").src = "../Type/" + "Feu.png";
+  document.getElementById("type1").src = "../types/" + "Feu.png";
   document.getElementById("select1").value = "555";
 } else if (res7 === "83.png") {
-  document.getElementById("type1").src = "../Type/" + "Normal.png";
+  document.getElementById("type1").src = "../types/" + "Normal.png";
   document.getElementById("select1").value = "83";
 } else if (res7 === "78.png") {
-  document.getElementById("type1").src = "../Type/" + "Feu.png";
+  document.getElementById("type1").src = "../types/" + "Feu.png";
   document.getElementById("select1").value = "78";
 } else if (res7 === "122.png") {
-  document.getElementById("type1").src = "../Type/" + "Psy.png";
+  document.getElementById("type1").src = "../types/" + "Psy.png";
   document.getElementById("select1").value = "122";
 } else if (res7 === "222.png") {
-  document.getElementById("type1").src = "../Type/" + "Eau.png";
+  document.getElementById("type1").src = "../types/" + "Eau.png";
   document.getElementById("select1").value = "222";
 } else if (res7 === "263.png") {
-  document.getElementById("type1").src = "../Type/" + "Normal.png";
+  document.getElementById("type1").src = "../types/" + "Normal.png";
   document.getElementById("select1").value = "263";
 } else if (res7 === "264.png") {
-  document.getElementById("type1").src = "../Type/" + "Normal.png";
+  document.getElementById("type1").src = "../types/" + "Normal.png";
   document.getElementById("select1").value = "264";
 } else if (res7 === "562.png") {
-  document.getElementById("type1").src = "../Type/" + "Spectre.png";
+  document.getElementById("type1").src = "../types/" + "Spectre.png";
   document.getElementById("select1").value = "562";
 } else if (res7 === "618.png") {
 
   document.getElementById("select1").value = "618";
 } else if (res7 === "79.png") {
-  document.getElementById("type1").src = "../Type/" + "Eau.png";
+  document.getElementById("type1").src = "../types/" + "Eau.png";
   document.getElementById("select1").value = "79";
 } else if (res7 === "80.png") {
-  document.getElementById("type1").src = "../Type/" + "Eau.png";
+  document.getElementById("type1").src = "../types/" + "Eau.png";
   document.getElementById("select1").value = "80";
 } else if (res7 === "199.png") {
-  document.getElementById("type1").src = "../Type/" + "Eau.png";
+  document.getElementById("type1").src = "../types/" + "Eau.png";
   document.getElementById("select1").value = "199";
 } else if (res7 === "144.png") {
-  document.getElementById("type1").src = "../Type/" + "Glace.png";
+  document.getElementById("type1").src = "../types/" + "Glace.png";
   document.getElementById("select1").value = "144";
 } else if (res7 === "145.png") {
-  document.getElementById("type1").src = "../Type/" + "Elec.png";
+  document.getElementById("type1").src = "../types/" + "Elec.png";
   document.getElementById("select1").value = "145";
 } else if (res7 === "146.png") {
-  document.getElementById("type1").src = "../Type/" + "Feu.png";
+  document.getElementById("type1").src = "../types/" + "Feu.png";
   document.getElementById("select1").value = "146";
 }
 typeweak();
@@ -4064,7 +4064,7 @@ if (icon1alolares1 == "52a.png") {
   document.getElementById("icon1-galar1").style.display = "block";
 
   if (res7 === "52.png") {
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
     document.getElementById("select1").value = "52";
   }
   typeweak();
@@ -4075,7 +4075,7 @@ if (icon1galarres1 == "52g.png") {
   document.getElementById("icon1-galar1").style.display = "block";
 
   if (res7 === "52.png") {
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
     document.getElementById("select1").value = "52";
   }
   typeweak();
@@ -4187,7 +4187,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
   if (res7 === "351.png") {
 
     document.getElementById("select1").value = "351";
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
   } else if (res7 === "386.png") {
 
     document.getElementById("select1").value = "386";
@@ -4276,7 +4276,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
     document.getElementById("select1").value = "718";
   } else if (res7 === "741.png") {
     document.getElementById("select1").value = "741";
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
   } else if (res7 === "745.png") {
     document.getElementById("select1").value = "745";
   } else if (res7 === "746.png") {
@@ -4302,7 +4302,7 @@ if (iconaltform2res1 == "892_2.png" || iconaltform2res1 == "849_2.png" || iconal
   if (res7 === "351.png") {
 
     document.getElementById("select1").value = "351";
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
   } else if (res7 === "386.png") {
 
     document.getElementById("select1").value = "386";
@@ -4331,7 +4331,7 @@ if (iconaltform2res1 == "892_2.png" || iconaltform2res1 == "849_2.png" || iconal
     document.getElementById("select1").value = "718";
   } else if (res7 === "741.png") {
     document.getElementById("select1").value = "741";
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
   } else if (res7 === "745.png") {
     document.getElementById("select1").value = "745";
   } else if (res7 === "849.png") {
@@ -4349,7 +4349,7 @@ if (iconaltform3res1 == "892_3.png" || iconaltform3res1 == "741_3.png" || iconal
   if (res7 === "351.png") {
 
     document.getElementById("select1").value = "351";
-    document.getElementById("type1").src = "../Type/" + "Normal.png";
+    document.getElementById("type1").src = "../types/" + "Normal.png";
   } else if (res7 === "386.png") {
 
     document.getElementById("select1").value = "386";
@@ -4366,7 +4366,7 @@ if (iconaltform3res1 == "892_3.png" || iconaltform3res1 == "741_3.png" || iconal
     document.getElementById("select1").value = "586";
   } else if (res7 === "741.png") {
     document.getElementById("select1").value = "741";
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
   } else if (res7 === "892.png") {
     document.getElementById("select1").value = "892";
   }
@@ -4702,7 +4702,7 @@ function iconGalar1() {
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic1").src = "../sprites/" + galarres3;
   document.getElementById("pic3").src = "../sprites/fused/" + galarres5;
-  document.getElementById("galar").innerHTML = " de Galar";
+  document.getElementById("galar").innerHTML = "Galarian ";
   document.getElementById("alola").innerHTML = "";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
@@ -4712,57 +4712,57 @@ function iconGalar1() {
   document.getElementById("icon1").style.display = "block";
 
   if (galarres3 === "77g.png") {
-    document.getElementById("type1").src = "../Type/" + "Psy.png";
+    document.getElementById("type1").src = "../types/" + "Psy.png";
     document.getElementById("select1").value = "77g";
   } else if (galarres3 === "110g.png") {
-    document.getElementById("type1").src = "../Type/" + "Poison.png";
+    document.getElementById("type1").src = "../types/" + "Poison.png";
     document.getElementById("select1").value = "110g";
   } else if (galarres3 === "83g.png") {
-    document.getElementById("type1").src = "../Type/" + "Combat.png";
+    document.getElementById("type1").src = "../types/" + "Combat.png";
     document.getElementById("select1").value = "83g";
   } else if (galarres3 === "78g.png") {
-    document.getElementById("type1").src = "../Type/" + "Psy.png";
+    document.getElementById("type1").src = "../types/" + "Psy.png";
     document.getElementById("select1").value = "78g";
   } else if (galarres3 === "122g.png") {
-    document.getElementById("type1").src = "../Type/" + "Glace.png";
+    document.getElementById("type1").src = "../types/" + "Glace.png";
     document.getElementById("select1").value = "122g";
   } else if (galarres3 === "222g.png") {
-    document.getElementById("type1").src = "../Type/" + "Spectre.png";
+    document.getElementById("type1").src = "../types/" + "Spectre.png";
     document.getElementById("select1").value = "222g";
   } else if (galarres3 === "263g.png") {
-    document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type1").src = "../types/" + "Tenebres.png";
     document.getElementById("select1").value = "263g";
   } else if (galarres3 === "264g.png") {
-    document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type1").src = "../types/" + "Tenebres.png";
     document.getElementById("select1").value = "264g";
   } else if (galarres3 === "562g.png") {
-    document.getElementById("type1").src = "../Type/" + "Sol.png";
+    document.getElementById("type1").src = "../types/" + "Sol.png";
     document.getElementById("select1").value = "562g";
   } else if (galarres3 === "555g.png") {
-    document.getElementById("type1").src = "../Type/" + "Glace.png";
+    document.getElementById("type1").src = "../types/" + "Glace.png";
     document.getElementById("select1").value = "555g";
   } else if (galarres3 === "554g.png") {
-    document.getElementById("type1").src = "../Type/" + "Glace.png";
+    document.getElementById("type1").src = "../types/" + "Glace.png";
     document.getElementById("select1").value = "554g";
   } else if (galarres3 === "618g.png") {
     document.getElementById("select1").value = "618g";
   } else if (galarres3 === "79g.png") {
-    document.getElementById("type1").src = "../Type/" + "Psy.png";
+    document.getElementById("type1").src = "../types/" + "Psy.png";
     document.getElementById("select1").value = "79g";
   } else if (galarres3 === "80g.png") {
-    document.getElementById("type1").src = "../Type/" + "Poison.png";
+    document.getElementById("type1").src = "../types/" + "Poison.png";
     document.getElementById("select1").value = "80g";
   } else if (galarres3 === "199g.png") {
-    document.getElementById("type1").src = "../Type/" + "Poison.png";
+    document.getElementById("type1").src = "../types/" + "Poison.png";
     document.getElementById("select1").value = "199g";
   } else if (galarres3 === "144g.png") {
-    document.getElementById("type1").src = "../Type/" + "Psy.png";
+    document.getElementById("type1").src = "../types/" + "Psy.png";
     document.getElementById("select1").value = "144g";
   } else if (galarres3 === "145g.png") {
-    document.getElementById("type1").src = "../Type/" + "Combat.png";
+    document.getElementById("type1").src = "../types/" + "Combat.png";
     document.getElementById("select1").value = "145g";
   } else if (galarres3 === "146g.png") {
-    document.getElementById("type1").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type1").src = "../types/" + "Tenebres.png";
     document.getElementById("select1").value = "146g";
   }
     typeweak();
@@ -4779,7 +4779,7 @@ function iconGalarMiaouss() {
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic1").src = "../sprites/" + galarres3;
   document.getElementById("pic3").src = "../sprites/fused/" + galarres5;
-  document.getElementById("galar").innerHTML = " de Galar";
+  document.getElementById("galar").innerHTML = "Galarian ";
   document.getElementById("alola").innerHTML = "";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
@@ -4789,7 +4789,7 @@ function iconGalarMiaouss() {
   document.getElementById("icon1").style.display = "block";
 
 if (galarres3 === "52g.png") {
-    document.getElementById("type1").src = "../Type/" + "Acier.png";
+    document.getElementById("type1").src = "../types/" + "Acier.png";
     document.getElementById("select1").value = "52g";
   }
     typeweak();
@@ -4874,7 +4874,7 @@ function icon1AltForm(){
 
   if (alolares3 === "351_1.png") {
     document.getElementById("select1").value = "351_1";
-    document.getElementById("type1").src = "../Type/" + "Feu.png";
+    document.getElementById("type1").src = "../types/" + "Feu.png";
   } else if (alolares3 === "386_1.png") {
     document.getElementById("select1").value = "386_1";
   } else if (alolares3 === "249_1.png") {
@@ -4922,7 +4922,7 @@ function icon1AltForm(){
     document.getElementById("select1").value = "718_1";
   } else if (alolares3 === "741_1.png") {
     document.getElementById("select1").value = "741_1";
-    document.getElementById("type1").src = "../Type/" + "Psy.png";
+    document.getElementById("type1").src = "../types/" + "Psy.png";
   } else if (alolares3 === "745_1.png") {
     document.getElementById("select1").value = "745_1";
   } else if (alolares3 === "746_1.png") {
@@ -4968,7 +4968,7 @@ function icon1AltForm2(){
 
   if (alolares3 === "351_2.png") {
     document.getElementById("select1").value = "351_2";
-    document.getElementById("type1").src = "../Type/" + "Eau.png";
+    document.getElementById("type1").src = "../types/" + "Eau.png";
   } else if (alolares3 === "386_2.png") {
     document.getElementById("select1").value = "386_2";
   }    else if (alolares3 === "412_2.png") {
@@ -4985,7 +4985,7 @@ function icon1AltForm2(){
     document.getElementById("select1").value = "718_2";
   } else if (alolares3 === "741_2.png") {
     document.getElementById("select1").value = "741_2";
-    document.getElementById("type1").src = "../Type/" + "Elec.png";
+    document.getElementById("type1").src = "../types/" + "Elec.png";
   } else if (alolares3 === "745_2.png") {
     document.getElementById("select1").value = "745_2";
   } else if (alolares3 === "849_2.png") {
@@ -5019,7 +5019,7 @@ function icon1AltGalarForm2(){
 
   if (galarres6 === "555g_2.png") {
     document.getElementById("select1").value = "555g_2";
-    document.getElementById("galar").innerHTML = " de Galar";
+    document.getElementById("galar").innerHTML = "Galarian ";
   }
   typeweak();
 }
@@ -5046,7 +5046,7 @@ function icon1AltForm3(){
 
   if (alolares3 === "351_3.png") {
     document.getElementById("select1").value = "351_3";
-    document.getElementById("type1").src = "../Type/" + "Glace.png";
+    document.getElementById("type1").src = "../types/" + "Glace.png";
   } else if (alolares3 === "386_3.png") {
     document.getElementById("select1").value = "386_3";
   } else if (alolares3 === "479_3.png") {
@@ -5057,7 +5057,7 @@ function icon1AltForm3(){
     document.getElementById("select1").value = "586_3";
   } else if (alolares3 === "741_3.png") {
     document.getElementById("select1").value = "741_3";
-    document.getElementById("type1").src = "../Type/" + "Spectre.png";
+    document.getElementById("type1").src = "../types/" + "Spectre.png";
   } else if (alolares3 === "892_3.png") {
     document.getElementById("select1").value = "892_3";
   }
@@ -5126,56 +5126,56 @@ function iconAlola2() {
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic2").src = "../sprites/" + alolares2;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("alola").innerHTML = " d'Alola";
+  document.getElementById("alola").innerHTML = "Alolan ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon2-alola").style.display = "none";
   document.getElementById("icon2").style.display = "block";
 
   if (alolares2 === "50a.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "50a";
   } else if (alolares2 === "103a.png") {
-    document.getElementById("type2").src = "../Type/" + "Dragon.png";
+    document.getElementById("type2").src = "../types/" + "Dragon.png";
     document.getElementById("select2").value = "103a";
   } else if (alolares2 === "75a.png") {
-    document.getElementById("type2").src = "../Type/" + "Elec.png";
+    document.getElementById("type2").src = "../types/" + "Elec.png";
     document.getElementById("select2").value = "75a";
   } else if (alolares2 === "38a.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "38a";
   } else if (alolares2 === "53a.png") {
-    document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type2").src = "../types/" + "Tenebres.png";
     document.getElementById("select2").value = "53a";
   } else if (alolares2 === "28a.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "28a";
   } else if (alolares2 === "105a.png") {
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
     document.getElementById("select2").value = "105a";
   } else if (alolares2 === "74a.png") {
-    document.getElementById("type2").src = "../Type/" + "Elec.png";
+    document.getElementById("type2").src = "../types/" + "Elec.png";
     document.getElementById("select2").value = "74a";
   } else if (alolares2 === "37a.png") {
-    document.getElementById("type2").src = "../Type/" + "Glace.png";
+    document.getElementById("type2").src = "../types/" + "Glace.png";
     document.getElementById("select2").value = "37a";
   } else if (alolares2 === "51a.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "51a";
   } else if (alolares2 === "76a.png") {
-    document.getElementById("type2").src = "../Type/" + "Elec.png";
+    document.getElementById("type2").src = "../types/" + "Elec.png";
     document.getElementById("select2").value = "76a";
   } else if (alolares2 === "26a.png") {
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
     document.getElementById("select2").value = "26a";
   } else if (alolares2 === "88a.png") {
-    document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type2").src = "../types/" + "Tenebres.png";
     document.getElementById("select2").value = "88a";
   } else if (alolares2 === "89a.png") {
-    document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type2").src = "../types/" + "Tenebres.png";
     document.getElementById("select2").value = "89a";
   } else if (alolares2 === "27a.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "27a";
   } else if (alolares2 === "20a.png") {
 
@@ -5199,7 +5199,7 @@ function iconAlolaMiaouss2() {
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic2").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares5;
-  document.getElementById("alola").innerHTML = " d'Alola";
+  document.getElementById("alola").innerHTML = "Alolan ";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
   document.getElementById("icon2-alola1").style.display = "none";
@@ -5207,7 +5207,7 @@ function iconAlolaMiaouss2() {
   document.getElementById("icon2").style.display = "block";
 
   if (alolares3 === "52a.png") {
-        document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+        document.getElementById("type2").src = "../types/" + "Tenebres.png";
         document.getElementById("select2").value = "52a";
       }
     typeweak();
@@ -5223,33 +5223,33 @@ function iconNormal2() {
     var res7 = res5.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
     var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
     var iconalola1 = document.getElementById("icon2-alola").src;
-    var iconalolares1 = iconalola1.substr(58);
+    var iconalolares1 = iconalola1.substr(30);
     var iconmega1 = document.getElementById("icon2-mega").src;
-    var iconmegares1 = iconmega1.substr(58);
+    var iconmegares1 = iconmega1.substr(30);
     var icongalar1 = document.getElementById("icon2-galar").src;
-    var icongalarres1 = icongalar1.substr(58);
+    var icongalarres1 = icongalar1.substr(30);
     var iconmegax1 = document.getElementById("icon2-megax").src;
-    var iconmegaxres1 = iconmegax1.substr(58);
+    var iconmegaxres1 = iconmegax1.substr(30);
     var iconmegay1 = document.getElementById("icon2-megay").src;
-    var iconmegayres1 = iconmegay1.substr(58);
+    var iconmegayres1 = iconmegay1.substr(30);
     var icon1galar1 = document.getElementById("icon2-galar1").src;
-    var icon1galarres1 = icon1galar1.substr(58);
+    var icon1galarres1 = icon1galar1.substr(30);
     var icon1alola1 = document.getElementById("icon2-alola1").src;
-    var icon1alolares1 = icon1alola1.substr(58);
+    var icon1alolares1 = icon1alola1.substr(30);
     var icongigan1 = document.getElementById("icon2-gigan").src;
-    var icongiganres1 = icongigan1.substr(58);
+    var icongiganres1 = icongigan1.substr(30);
     var iconaltform1 = document.getElementById("icon2-altform").src;
-    var iconaltformres1 = iconaltform1.substr(58);
+    var iconaltformres1 = iconaltform1.substr(30);
     var iconaltform2 = document.getElementById("icon2-altform2").src;
-    var iconaltform2res1 = iconaltform2.substr(58);
+    var iconaltform2res1 = iconaltform2.substr(30);
     var iconaltgalarform2 = document.getElementById("icon2-altgalarform2").src;
-    var iconaltgalarform2res1 = iconaltgalarform2.substr(58);
+    var iconaltgalarform2res1 = iconaltgalarform2.substr(30);
     var iconaltform3 = document.getElementById("icon2-altform3").src;
-    var iconaltform3res1 = iconaltform3.substr(58);
+    var iconaltform3res1 = iconaltform3.substr(30);
     var iconaltform4 = document.getElementById("icon2-altform4").src;
-    var iconaltform4res1 = iconaltform4.substr(58);
+    var iconaltform4res1 = iconaltform4.substr(30);
     var iconaltform5 = document.getElementById("icon2-altform5").src;
-    var iconaltform5res1 = iconaltform5.substr(58);
+    var iconaltform5res1 = iconaltform5.substr(30);
     document.getElementById("pic2").src = "../sprites/" + res7;
   document.getElementById("pic3").src = "../sprites/fused/" + res10;
   document.getElementById("select2").value = res7;
@@ -5282,52 +5282,52 @@ if (iconalolares1 == "19a.png" || iconalolares1 == "20a.png" || iconalolares1 ==
   document.getElementById("icon2-alola").style.display = "block";
 
   if (res7 === "50.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "50";
   } else if (res7 === "103.png") {
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
     document.getElementById("select2").value = "103";
   } else if (res7 === "75.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "75";
   } else if (res7 === "38.png") {
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
     document.getElementById("select2").value = "38";
   } else if (res7 === "53.png") {
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
     document.getElementById("select2").value = "53";
   } else if (res7 === "28.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "28";
   } else if (res7 === "105.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "105";
   } else if (res7 === "74.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "74";
   } else if (res7 === "37.png") {
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
     document.getElementById("select2").value = "37";
   } else if (res7 === "51.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "51";
   } else if (res7 === "76.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "76";
   } else if (res7 === "26.png") {
-    document.getElementById("type2").src = "../Type/" + "Elec.png";
+    document.getElementById("type2").src = "../types/" + "Elec.png";
     document.getElementById("select2").value = "26";
   } else if (res7 === "88.png") {
-    document.getElementById("type2").src = "../Type/" + "Poison.png";
+    document.getElementById("type2").src = "../types/" + "Poison.png";
     document.getElementById("select2").value = "88";
   } else if (res7 === "89.png") {
-    document.getElementById("type2").src = "../Type/" + "Poison.png";
+    document.getElementById("type2").src = "../types/" + "Poison.png";
     document.getElementById("select2").value = "89";
   } else if (res7 === "27.png") {
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
     document.getElementById("select2").value = "27";
   } else if (res7 === "122.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "122";
   } else if (res7 === "20.png") {
     document.getElementById("select2").value = "20";
@@ -5342,34 +5342,34 @@ if (iconmegares1 == "3m.png" || iconmegares1 == "9m.png" || iconmegares1 == "15m
 document.getElementById("icon2-mega").style.display = "block";
 
 if (res7 === "127.png") {
-  document.getElementById("type2").src = "../Type/" + "Insecte.png";
+  document.getElementById("type2").src = "../types/" + "Insecte.png";
   document.getElementById("select2").value = "127";
 } else if (res7 === "130.png") {
-  document.getElementById("type2").src = "../Type/" + "Vol.png";
+  document.getElementById("type2").src = "../types/" + "Vol.png";
   document.getElementById("select2").value = "130";
 } else if (res7 === "181.png") {
-  document.getElementById("type2").src = "../Type/" + "Elec.png";
+  document.getElementById("type2").src = "../types/" + "Elec.png";
   document.getElementById("select2").value = "181";
 } else if (res7 === "254.png") {
-  document.getElementById("type2").src = "../Type/" + "Plante.png";
+  document.getElementById("type2").src = "../types/" + "Plante.png";
   document.getElementById("select2").value = "254";
 } else if (res7 === "257.png") {
   document.getElementById("select2").value = "257";
 } else if (res7 === "306.png") {
-  document.getElementById("type2").src = "../Type/" + "Roche.png";
+  document.getElementById("type2").src = "../types/" + "Roche.png";
   document.getElementById("select2").value = "306";
 } else if (res7 === "334.png") {
-  document.getElementById("type2").src = "../Type/" + "Vol.png";
+  document.getElementById("type2").src = "../types/" + "Vol.png";
   document.getElementById("select2").value = "334";
 } else if (res7 === "383.png") {
-  document.getElementById("type2").src = "../Type/" + "Sol.png";
+  document.getElementById("type2").src = "../types/" + "Sol.png";
   document.getElementById("select2").value = "383";
   document.getElementById("megaoui").innerHTML = "";
 } else if (res7 === "428.png") {
-  document.getElementById("type2").src = "../Type/" + "Normal.png";
+  document.getElementById("type2").src = "../types/" + "Normal.png";
   document.getElementById("select2").value = "428";
 } else if (res7 === "531.png") {
-  document.getElementById("type2").src = "../Type/" + "Normal.png";
+  document.getElementById("type2").src = "../types/" + "Normal.png";
   document.getElementById("select2").value = "531";
 } else if (res7 === "115.png") {
 
@@ -5484,31 +5484,31 @@ if (icongalarres1 == "144g.png" || icongalarres1 == "145g.png" || icongalarres1 
  document.getElementById("icon2-galar").style.display = "block";
 
  if (res7 === "77.png") {
-  document.getElementById("type2").src = "../Type/" + "Feu.png";
+  document.getElementById("type2").src = "../types/" + "Feu.png";
   document.getElementById("select2").value = "77";
 } else if (res7 === "110.png") {
-  document.getElementById("type2").src = "../Type/" + "Poison.png";
+  document.getElementById("type2").src = "../types/" + "Poison.png";
   document.getElementById("select2").value = "110";
 } else if (res7 === "554.png") {
-  document.getElementById("type2").src = "../Type/" + "Feu.png";
+  document.getElementById("type2").src = "../types/" + "Feu.png";
   document.getElementById("select2").value = "554";
 } else if (res7 === "555.png") {
-  document.getElementById("type2").src = "../Type/" + "Feu.png";
+  document.getElementById("type2").src = "../types/" + "Feu.png";
   document.getElementById("select2").value = "555";
 } else if (res7 === "83.png") {
-  document.getElementById("type2").src = "../Type/" + "Vol.png";
+  document.getElementById("type2").src = "../types/" + "Vol.png";
   document.getElementById("select2").value = "83";
 } else if (res7 === "78.png") {
-  document.getElementById("type2").src = "../Type/" + "Feu.png";
+  document.getElementById("type2").src = "../types/" + "Feu.png";
   document.getElementById("select2").value = "78";
 } else if (res7 === "122.png") {
-  document.getElementById("type2").src = "../Type/" + "Fee.png";
+  document.getElementById("type2").src = "../types/" + "Fee.png";
   document.getElementById("select2").value = "122";
 } else if (res7 === "222.png") {
-  document.getElementById("type2").src = "../Type/" + "Roche.png";
+  document.getElementById("type2").src = "../types/" + "Roche.png";
   document.getElementById("select2").value = "222";
 } else if (res7 === "618.png") {
-  document.getElementById("type2").src = "../Type/" + "Elec.png";
+  document.getElementById("type2").src = "../types/" + "Elec.png";
   document.getElementById("select2").value = "618";
 } else if (res7 === "263.png") {
   document.getElementById("select2").value = "263";
@@ -5537,10 +5537,10 @@ if (iconmegaxres1 == "6mx.png" || iconmegaxres1 == "150mx.png") {
 
 
   if (res7 === "6.png") {
-    document.getElementById("type2").src = "../Type/" + "Vol.png";
+    document.getElementById("type2").src = "../types/" + "Vol.png";
     document.getElementById("select2").value = "6";
   } else if (res7 === "150.png") {
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
     document.getElementById("select2").value = "150";
   }
 typeweak();
@@ -5566,7 +5566,7 @@ if (icon1alolares1 == "52a.png") {
   document.getElementById("icon2-galar1").style.display = "block";
 
   if (res7 === "52.png") {
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
     document.getElementById("select2").value = "52";
   }
   typeweak();
@@ -5577,7 +5577,7 @@ if (icon1galarres1 == "52g.png") {
   document.getElementById("icon2-galar1").style.display = "block";
 
   if (res7 === "52.png") {
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
     document.getElementById("select2").value = "52";
   }
   typeweak();
@@ -5689,7 +5689,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
   if (res7 === "351.png") {
 
     document.getElementById("select2").value = "351";
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
 
   } else if (res7 === "386.png") {
 
@@ -5706,7 +5706,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
   } else if (res7 === "413.png") {
 
     document.getElementById("select2").value = "413";
-    document.getElementById("type2").src = "../Type/" + "Plante.png";
+    document.getElementById("type2").src = "../types/" + "Plante.png";
 
   } else if (res7 === "421.png") {
 
@@ -5723,7 +5723,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
   } else if (res7 === "479.png") {
 
     document.getElementById("select2").value = "479";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
 
   } else if (res7 === "487.png") {
 
@@ -5732,7 +5732,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
   } else if (res7 === "492.png") {
 
     document.getElementById("select2").value = "492";
-    document.getElementById("type2").src = "../Type/" + "Plante.png";
+    document.getElementById("type2").src = "../types/" + "Plante.png";
 
   } else if (res7 === "550.png") {
 
@@ -5768,10 +5768,10 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
 
   } else if (res7 === "648.png") {
     document.getElementById("select2").value = "648";
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
   } else if (res7 === "720.png") {
     document.getElementById("select2").value = "720";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
   } else if (res7 === "658.png") {
     document.getElementById("select2").value = "658";
     document.getElementById("suffix").innerHTML = "inobi";
@@ -5785,7 +5785,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
     document.getElementById("select2").value = "746";
   } else if (res7 === "800.png") {
     document.getElementById("select2").value = "800";
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
   } else if (res7 === "875.png") {
     document.getElementById("select2").value = "875";
   } else if (res7 === "877.png") {
@@ -5794,7 +5794,7 @@ if (iconaltformres1 == "889_1.png" || iconaltformres1 == "888_1.png" || iconaltf
     document.getElementById("select2").value = "888";
   } else if (res7 === "889.png") {
     document.getElementById("select2").value = "889";
-    document.getElementById("type2").src = "../Type/" + "Combat.png";
+    document.getElementById("type2").src = "../types/" + "Combat.png";
   }
 typeweak();
   
@@ -5806,7 +5806,7 @@ if (iconaltform2res1 == "892_2.png" || iconaltform2res1 == "849_2.png" || iconal
   if (res7 === "351.png") {
 
     document.getElementById("select2").value = "351";
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
 
   } else if (res7 === "386.png") {
 
@@ -5819,12 +5819,12 @@ if (iconaltform2res1 == "892_2.png" || iconaltform2res1 == "849_2.png" || iconal
   } else if (res7 === "413.png") {
 
     document.getElementById("select2").value = "413";
-    document.getElementById("type2").src = "../Type/" + "Plante.png";
+    document.getElementById("type2").src = "../types/" + "Plante.png";
 
   } else if (res7 === "479.png") {
 
     document.getElementById("select2").value = "479";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
 
   } else if (res7 === "585.png") {
 
@@ -5855,7 +5855,7 @@ if (iconaltform3res1 == "892_3.png" || iconaltform3res1 == "741_3.png" || iconal
   if (res7 === "351.png") {
 
     document.getElementById("select2").value = "351";
-    document.getElementById("type2").src = "../Type/" + "Normal.png";
+    document.getElementById("type2").src = "../types/" + "Normal.png";
 
   } else if (res7 === "386.png") {
 
@@ -5864,7 +5864,7 @@ if (iconaltform3res1 == "892_3.png" || iconaltform3res1 == "741_3.png" || iconal
   } else if (res7 === "479.png") {
 
     document.getElementById("select2").value = "479";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
 
   } else if (res7 === "585.png") {
 
@@ -5886,7 +5886,7 @@ if (iconaltform4res1 == "479_4.png") {
 
   if (res7 === "479.png") {
     document.getElementById("select2").value = "479";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
   }
 typeweak();
   
@@ -5897,7 +5897,7 @@ if (iconaltform5res1 == "479_5.png") {
 
   if (res7 === "479.png") {
     document.getElementById("select2").value = "479";
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
   }
 typeweak();
   
@@ -5930,32 +5930,32 @@ function iconMega2() {
   document.getElementById("icon2").style.display = "block";
 
   if (megares2 === "127m.png") {
-    document.getElementById("type2").src = "../Type/" + "Vol.png";
+    document.getElementById("type2").src = "../types/" + "Vol.png";
     document.getElementById("select2").value = "127m";
   } else if (megares2 === "130m.png") {
-    document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type2").src = "../types/" + "Tenebres.png";
     document.getElementById("select2").value = "130m";
   } else if (megares2 === "181m.png") {
-    document.getElementById("type2").src = "../Type/" + "Dragon.png";
+    document.getElementById("type2").src = "../types/" + "Dragon.png";
     document.getElementById("select2").value = "181m";
   } else if (megares2 === "306m.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "306m";
   } else if (megares2 === "334m.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "334m";
   } else if (megares2 === "383m.png") {
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
     document.getElementById("select2").value = "383m";
     document.getElementById("megaoui").innerHTML = "Primo ";
   } else if (megares2 === "428m.png") {
-    document.getElementById("type2").src = "../Type/" + "Combat.png";
+    document.getElementById("type2").src = "../types/" + "Combat.png";
     document.getElementById("select2").value = "428m";
   } else if (megares2 === "254m.png") {
-    document.getElementById("type2").src = "../Type/" + "Dragon.png";
+    document.getElementById("type2").src = "../types/" + "Dragon.png";
     document.getElementById("select2").value = "254m";
   } else if (megares2 === "531m.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "531m";
   } else if (megares2 === "115m.png") {
 
@@ -6198,7 +6198,7 @@ function iconGalar2() {
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic2").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + galarres5;
-  document.getElementById("galar").innerHTML = " de Galar";
+  document.getElementById("galar").innerHTML = "Galarian ";
   document.getElementById("alola").innerHTML = "";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
@@ -6206,31 +6206,31 @@ function iconGalar2() {
   document.getElementById("icon2").style.display = "block";
 
   if (alolares3 === "77g.png") {
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
     document.getElementById("select2").value = "77g";
   } else if (alolares3 === "110g.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "110g";
   } else if (alolares3 === "83g.png") {
-    document.getElementById("type2").src = "../Type/" + "Combat.png";
+    document.getElementById("type2").src = "../types/" + "Combat.png";
     document.getElementById("select2").value = "83g";
   } else if (alolares3 === "78g.png") {
-    document.getElementById("type2").src = "../Type/" + "Fee.png";
+    document.getElementById("type2").src = "../types/" + "Fee.png";
     document.getElementById("select2").value = "78g";
   } else if (alolares3 === "618g.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "618g";
   } else if (alolares3 === "122g.png") {
-    document.getElementById("type2").src = "../Type/" + "Psy.png";
+    document.getElementById("type2").src = "../types/" + "Psy.png";
     document.getElementById("select2").value = "122g";
   } else if (alolares3 === "222g.png") {
-    document.getElementById("type2").src = "../Type/" + "Spectre.png";
+    document.getElementById("type2").src = "../types/" + "Spectre.png";
     document.getElementById("select2").value = "222g";
   } else if (alolares3 === "554g.png") {
-    document.getElementById("type2").src = "../Type/" + "Glace.png";
+    document.getElementById("type2").src = "../types/" + "Glace.png";
     document.getElementById("select2").value = "554g";
   } else if (alolares3 === "555g.png") {
-    document.getElementById("type2").src = "../Type/" + "Glace.png";
+    document.getElementById("type2").src = "../types/" + "Glace.png";
     document.getElementById("select2").value = "555g";
   } else if (alolares3 === "263g.png") {
     document.getElementById("select2").value = "263g";
@@ -6265,7 +6265,7 @@ function iconGalarMiaouss2() {
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic2").src = "../sprites/" + galarres3;
   document.getElementById("pic3").src = "../sprites/fused/" + galarres5;
-  document.getElementById("galar").innerHTML = " de Galar";
+  document.getElementById("galar").innerHTML = "Galarian ";
   document.getElementById("alola").innerHTML = "";
   document.getElementById("select1").disabled = true;
   document.getElementById("select2").disabled = true;
@@ -6274,7 +6274,7 @@ function iconGalarMiaouss2() {
   document.getElementById("icon2").style.display = "block";
 
 if (galarres3 === "52g.png") {
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
     document.getElementById("select2").value = "52g";
   }
     typeweak();
@@ -6301,10 +6301,10 @@ function iconMega2X() {
   document.getElementById("icon2-gigan").style.display = "none";
 
   if (megares2 === "6mx.png") {
-    document.getElementById("type2").src = "../Type/" + "Dragon.png";
+    document.getElementById("type2").src = "../types/" + "Dragon.png";
     document.getElementById("select2").value = "6mx";
   } else if (megares2 === "150mx.png") {
-    document.getElementById("type2").src = "../Type/" + "Combat.png";
+    document.getElementById("type2").src = "../types/" + "Combat.png";
     document.getElementById("select2").value = "150mx";
   }
   typeweak();
@@ -6361,7 +6361,7 @@ function icon2AltForm(){
 
   if (alolares3 === "351_1.png") {
     document.getElementById("select2").value = "351_1";
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
   } else if (alolares3 === "386_1.png") {
     document.getElementById("select2").value = "386_1";
   } else if (alolares3 === "249_1.png") {
@@ -6370,7 +6370,7 @@ function icon2AltForm(){
     document.getElementById("select2").value = "412_1";
   } else if (alolares3 === "413_1.png") {
     document.getElementById("select2").value = "413_1";
-    document.getElementById("type2").src = "../Type/" + "Sol.png";
+    document.getElementById("type2").src = "../types/" + "Sol.png";
   } else if (alolares3 === "421_1.png") {
     document.getElementById("select2").value = "421_1";
   } else if (alolares3 === "422_1.png") {
@@ -6379,12 +6379,12 @@ function icon2AltForm(){
     document.getElementById("select2").value = "423_1";
   } else if (alolares3 === "479_1.png") {
     document.getElementById("select2").value = "479_1";
-    document.getElementById("type2").src = "../Type/" + "Vol.png";
+    document.getElementById("type2").src = "../types/" + "Vol.png";
   } else if (alolares3 === "487_1.png") {
     document.getElementById("select2").value = "487_1";
   } else if (alolares3 === "492_1.png") {
     document.getElementById("select2").value = "492_1";
-    document.getElementById("type2").src = "../Type/" + "Vol.png";
+    document.getElementById("type2").src = "../types/" + "Vol.png";
   } else if (alolares3 === "550_1.png") {
     document.getElementById("select2").value = "550_1";
   } else if (alolares3 === "555_1.png") {
@@ -6403,10 +6403,10 @@ function icon2AltForm(){
     document.getElementById("select2").value = "647_1";
   } else if (alolares3 === "648_1.png") {
     document.getElementById("select2").value = "648_1";
-    document.getElementById("type2").src = "../Type/" + "Combat.png";
+    document.getElementById("type2").src = "../types/" + "Combat.png";
   } else if (alolares3 === "720_1.png") {
     document.getElementById("select2").value = "720_1";
-    document.getElementById("type2").src = "../Type/" + "Tenebres.png";
+    document.getElementById("type2").src = "../types/" + "Tenebres.png";
   } else if (alolares3 === "658_1.png") {
     document.getElementById("select2").value = "658_1";
     document.getElementById("suffix").innerHTML = "nobi";
@@ -6420,7 +6420,7 @@ function icon2AltForm(){
     document.getElementById("select2").value = "746_1";
   } else if (alolares3 === "800_1.png") {
     document.getElementById("select2").value = "800_1";
-    document.getElementById("type2").src = "../Type/" + "Dragon.png";
+    document.getElementById("type2").src = "../types/" + "Dragon.png";
   } else if (alolares3 === "875_1.png") {
     document.getElementById("select2").value = "875_1";
   } else if (alolares3 === "877_1.png") {
@@ -6429,7 +6429,7 @@ function icon2AltForm(){
     document.getElementById("select2").value = "888_1";
   } else if (alolares3 === "889_1.png") {
     document.getElementById("select2").value = "889_1";
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
   }
   typeweak();
 }
@@ -6462,17 +6462,17 @@ function icon2AltForm2(){
 
   if (alolares3 === "351_2.png") {
     document.getElementById("select2").value = "351_2";
-    document.getElementById("type2").src = "../Type/" + "Eau.png";
+    document.getElementById("type2").src = "../types/" + "Eau.png";
   } else if (alolares3 === "386_2.png") {
     document.getElementById("select2").value = "386_2";
   }    else if (alolares3 === "412_2.png") {
     document.getElementById("select2").value = "412_2";
   }    else if (alolares3 === "413_2.png") {
     document.getElementById("select2").value = "413_2";
-    document.getElementById("type2").src = "../Type/" + "Acier.png";
+    document.getElementById("type2").src = "../types/" + "Acier.png";
   } else if (alolares3 === "479_2.png") {
     document.getElementById("select2").value = "479_2";
-    document.getElementById("type2").src = "../Type/" + "Glace.png";
+    document.getElementById("type2").src = "../types/" + "Glace.png";
   } else if (alolares3 === "585_2.png") {
     document.getElementById("select2").value = "585_2";
   } else if (alolares3 === "586_2.png") {
@@ -6514,7 +6514,7 @@ function icon2AltGalarForm2(){
 
   if (galarres6 === "555g_2.png") {
     document.getElementById("select2").value = "555g_2";
-    document.getElementById("galar").innerHTML = " de Galar";
+    document.getElementById("galar").innerHTML = "Galarian ";
   }
   typeweak();
 }
@@ -6541,12 +6541,12 @@ function icon2AltForm3(){
 
   if (alolares3 === "351_3.png") {
     document.getElementById("select2").value = "351_3";
-    document.getElementById("type2").src = "../Type/" + "Glace.png";
+    document.getElementById("type2").src = "../types/" + "Glace.png";
   } else if (alolares3 === "386_3.png") {
     document.getElementById("select2").value = "386_3";
   } else if (alolares3 === "479_3.png") {
     document.getElementById("select2").value = "479_3";
-    document.getElementById("type2").src = "../Type/" + "Feu.png";
+    document.getElementById("type2").src = "../types/" + "Feu.png";
   } else if (alolares3 === "585_3.png") {
     document.getElementById("select2").value = "585_3";
   } else if (alolares3 === "586_3.png") {
@@ -6580,7 +6580,7 @@ function icon2AltForm4(){
 
 if (alolares3 === "479_4.png") {
     document.getElementById("select2").value = "479_4";
-    document.getElementById("type2").src = "../Type/" + "Plante.png";
+    document.getElementById("type2").src = "../types/" + "Plante.png";
   }
   typeweak();
 }
@@ -6606,7 +6606,7 @@ function icon2AltForm5(){
 
 if (alolares3 === "479_5.png") {
     document.getElementById("select2").value = "479_5";
-    document.getElementById("type2").src = "../Type/" + "Eau.png";
+    document.getElementById("type2").src = "../types/" + "Eau.png";
   }
   typeweak();
 }
