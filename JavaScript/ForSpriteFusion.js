@@ -4409,6 +4409,7 @@ function iconMega1() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
+  console.log(alolapic2);
   var alolares1 = alolapic2.substr(57);
   var alolares4 = alolapic3.substr(66);
   var alolares3 = alolares1.replace(".png", "m.png");
