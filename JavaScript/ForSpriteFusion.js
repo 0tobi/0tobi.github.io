@@ -3709,9 +3709,9 @@ function iconNormal1() {
   var test3 = document.getElementById("pic1").src;
     var test5 = document.getElementById("pic3").src;
     var res5 = test3.substring(32);
-    var res9 = test5.substring(66);
+    var res9 = test5.substring(38);
     var res7 = res5.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
-    var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
+    var res10 = res9.replace(/a.|m.|g.|mx.|my.|_1.|_2.|g_2.|_3.|_4.|_5./, ".");
   document.getElementById("pic1").src = "../sprites/" + res7;
   document.getElementById("pic3").src = "../sprites/fused/" + res10;
   document.getElementById("select1").value = res7;
