@@ -3609,7 +3609,7 @@ function iconAlola1() {
   var test = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
   var alolares1 = alolapic2.substring(32);
-  var test1 = test.substringing(32);
+  var test1 = test.substring(32);
   var alolares4 = alolapic3.substring(66, 68);
   var alolares3 = alolares1.replace(/.png|g.png/, "a.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
@@ -3681,7 +3681,7 @@ function iconAlolaMiaouss() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var test = document.getElementById("pic2").src;
-  var test1 = test.substringing(32);
+  var test1 = test.substring(32);
   document.getElementById("pic3").src = "../sprites/fused/" + alolares4 + "a" + '.' + test1;
   var alolapic3 = document.getElementById("pic3").src;
   var alolares1 = alolapic2.substring(32);
