@@ -3610,7 +3610,7 @@ function iconAlola1() {
   var alolapic3 = document.getElementById("pic3").src;
   var alolares1 = alolapic2.substring(32);
   var test1 = test.substring(32);
-  var alolares4 = alolapic3.substring(12);
+  var alolares4 = alolapic3.substring(38,40);
   var alolares3 = alolares1.replace(/.png|g.png/, "a.png");
   document.getElementById("pic1").src = "../sprites/" + alolares3;
   document.getElementById("pic3").src = "../sprites/fused/" + alolares4 + "a" + '.' + test1;
