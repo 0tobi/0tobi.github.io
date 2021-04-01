@@ -1938,7 +1938,7 @@ function randomImg2() {
   document.getElementById("number").innerHTML = "(" + res + "." + test2 + ")";
   document.getElementById("pic2").src = "../sprites/" + test2 + ".png";
   var cut = document.getElementById("pic3").src = "../sprites/fused/" + filename;
-  var res = cut.substr(77);
+  var res = cut.substr(15);
   document.getElementById("pic3").src = "../sprites/fused/" + res + "." + test2 + ".png";
   document.getElementById("select2").value = test2;
   document.getElementById("suffix").innerHTML = name2[test2];
@@ -1951,26 +1951,41 @@ function randomImg2() {
 
 
   if (test2 === 19 || test2 === 20 || test2 === 26 || test2 === 27 || test2 === 28 || test2 === 37 || test2 === 38 || test2 === 50 || test2 === 52 || test2 === 51 || test2 === 53 || test2 === 74 || test2 === 75 || test2 === 76 || test2 === 88 || test2 === 89 || test2 === 103 || test2 === 105) {
-    document.getElementById("options4").style.display = "block";
+    document.getElementById("icon2-alola").style.display = "block";
+    document.getElementById("icon2-alola").src = "../icons/" + test2 + "a.png";
+
   } else {
-    document.getElementById("options4").style.display = "none";
+    document.getElementById("icon2-alola").style.display = "none";
   }
-  if (test2 === 144 || test2 === 145 || test2 === 146 || test2 === 79 || test2 === 80 || test2 === 199 || test2 === 618 || test2 === 562 || test2 === 555 || test2 === 554 || test2 === 52 || test2 === 77 || test2 === 78 || test2 === 83 || test2 === 110 || test2 === 122 || test2 === 222 || test2 === 263 || test2 === 264 || test2 === 554 || test2 === 555 || test2 === 562 || test2 === 618) {
-    document.getElementById("options7").style.display = "block";
-  } else {
-    document.getElementById("options7").style.display = "none";
+  if (test2 == 52){
+    document.getElementById("icon2-alola1").style.display = "block";
+    document.getElementById("icon2-alola1").src = "../icons/" + test2 + "a.png";
+    document.getElementById("icon2-galar1").style.display = "block";
+    document.getElementById("icon2-galar1").src = "../icons/" + test2 + "g.png";
+  }else {
+    document.getElementById("icon2-alola1").style.display = "none";
+    document.getElementById("icon2-galar1").style.display = "none";
   }
-  if (test2 == 719 || test2 == 531 || test2 == 475 || test2 == 460 || test2 == 448 || test2 == 445 || test2 == 428 || test2 == 384 || test2 == 383 || test2 == 382 || test2 == 381 || test2 == 380 || test2 == 376 || test2 == 373 || test2 == 362 || test2 == 359 || test2 == 354 || test2 == 334 || test2 == 323 || test2 == 319 || test2 == 310 || test2 == 308 || test2 == 306 || test2 == 303 || test2 == 302 || test2 == 282 || test2 == 260 || test2 == 257 || test2 == 254 || test2 == 248 || test2 == 229 || test2 == 214 || test2 == 212 || test2 == 208 || test2 == 181 || test2 === 3 || test2 === 9 || test2 === 15 || test2 === 18 || test2 === 65 || test2 === 80 || test2 === 94 || test2 === 115 || test2 === 127 || test2 === 130 || test2 === 142) {
-    document.getElementById("MegaOp2").style.display = "block";
+  if (test2 == 144 || test2 == 145 || test2 == 146 || test2 == 79 || test2 == 80 || test2 == 199 || test2 == 618 || test2 == 562 || test2 == 555 || test2 == 554 || test2 == 77 || test2 == 78 || test2 == 83 || test2 == 110 || test2 == 122 || test2 == 222 || test2 == 263 || test2 == 264 || test2 == 554 || test2 == 555 || test2 == 562 || test2 == 618) {
+    document.getElementById("icon2-galar").style.display = "block";
+    document.getElementById("icon2-galar").src = "../icons/" + test2 + "g.png";
   } else {
-    document.getElementById("MegaOp2").style.display = "none";
+    document.getElementById("icon2-galar").style.display = "none";
   }
-  if (test2 === 6 || test2 === 150) {
-    document.getElementById("MegaOp2X").style.display = "block";
-    document.getElementById("MegaOp2Y").style.display = "block";
+  if (test2 == 719 || test2 == 531 || test2 == 475 || test2 == 460 || test2 == 448 || test2 == 445 || test2 == 428 || test2 == 384 || test2 == 383 || test2 == 382 || test2 == 381 || test2 == 380 || test2 == 376 || test2 == 373 || test2 == 362 || test2 == 359 || test2 == 354 || test2 == 334 || test2 == 323 || test2 == 319 || test2 == 310 || test2 == 308 || test2 == 306 || test2 == 303 || test2 == 302 || test2 == 282 || test2 == 260 || test2 == 257 || test2 == 254 || test2 == 248 || test2 == 229 || test2 == 214 || test2 == 212 || test2 == 208 || test2 == 181 || test2 == 3 || test2 == 9 || test2 == 15 || test2 == 18 || test2 == 65 || test2 == 80 || test2 == 94 || test2 == 115 || test2 == 127 || test2 == 130 || test2 == 142) {
+    document.getElementById("icon2-mega").style.display = "block";
+    document.getElementById("icon2-mega").src = "../icons/" + test2 + "m.png";
   } else {
-    document.getElementById("MegaOp2X").style.display = "none";
-    document.getElementById("MegaOp2Y").style.display = "none";
+    document.getElementById("icon2-mega").style.display = "none";
+  }
+  if (test2 == 6 || test2 == 150) {
+    document.getElementById("icon2-megax").style.display = "block";
+    document.getElementById("icon2-megax").src = "../icons/" + test2 + "mx.png";
+    document.getElementById("icon2-megay").style.display = "block";
+    document.getElementById("icon2-megay").src = "../icons/" + test2 + "my.png";
+  } else {
+    document.getElementById("icon2-megax").style.display = "none";
+    document.getElementById("icon2-megay").style.display = "none";
   }
 
   if (test2 == 849 || test2 == 848 || test2 == 793 || test2 == 591 || test2 == 590 || test2 == 545 || test2 == 544 || test2 == 543 || test2 == 407 || test2 == 406 || test2 == 315 || test2 == 269 || test2 == 803 || test2 == 569 || test2 == 568 || test2 == 336 || test2 == 317 || test2 == 316 || test2 == 167 || test2 == 168 || test2 == 211 || test2 == 23 || test2 == 24 || test2 == 1 || test2 == 2 || test2 == 3 || test2 == 13 || test2 == 14 || test2 == 15 || test2 == 43 || test2 == 44 || test2 == 45 || test2 == 69 || test2 == 70 || test2 == 71 || test2 == 72 || test2 == 73 || test2 == 92 || test2 == 93 || test2 == 94 || test2 == 29 || test2 == 30 || test2 == 32 || test2 == 33 || test2 == 88 || test2 == 89 || test2 == 109 || test2 == 110) {
