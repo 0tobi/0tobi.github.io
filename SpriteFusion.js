@@ -1825,6 +1825,7 @@ function randomImg() {
   var file = res
   file = file.split(".");
   file = file[0] + "";
+  document.getElementById("number").innerHTML = "(" + test + "." + res + ")";
   document.getElementById("pic1").src = "../sprites/" + test + ".png";
   document.getElementById("pic3").src = "../sprites/fused/" + test + "." + res;
   document.getElementById("icon1").src = "../icons/" + test + ".png";
