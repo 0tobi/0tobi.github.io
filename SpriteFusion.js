@@ -2342,16 +2342,10 @@ function setShiny() { // Get the checkbox
     document.getElementById("pic3").src = "../sprites/fused/" + res2;
     document.getElementById("pic1").src = "../sprites/shiny/" + res5;
     document.getElementById("pic2").src = "../sprites/shiny/" + res6;
-
     document.getElementById("AlolaPic2").style.pointerEvents = "none";
-
     document.getElementById("alola2").style.color = "red";
-
     document.getElementById("GalarPic2").style.pointerEvents = "none";
-
     document.getElementById("galar2").style.color = "red";
-
-
     document.getElementById("MegaPic2").style.pointerEvents = "none";
     document.getElementById("mega2").style.color = "red";
     document.getElementById("select1").disabled = true;
@@ -2371,36 +2365,20 @@ function setShiny() { // Get the checkbox
     var test2 = document.getElementById("pic3").src;
     var test5 = document.getElementById("pic1").src;
     var test6 = document.getElementById("pic2").src;
-    var res3 = test2.substr(66);
-    var res7 = test5.substr(66);
-    var res8 = test6.substr(66);
+    var res3 = test2.substr(38);
+    var res7 = test5.substr(38);
+    var res8 = test6.substr(38);
     var res4 = res3.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
     var res9 = res7.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
     var res10 = res8.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
     document.getElementById("pic3").src = "../sprites/fused/" + res4;
     document.getElementById("pic1").src = "../sprites/" + res9;
     document.getElementById("pic2").src = "../sprites/" + res10;
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-  
     document.getElementById("select1").disabled = false;
     document.getElementById("select2").disabled = false;
     document.getElementById("random1").disabled = false;
     document.getElementById("random2").disabled = false;
     document.getElementById("random3").disabled = false;
-  
-  
-  
-  
     document.getElementById("MegaPic2X").style.pointerEvents = "visible";
     document.getElementById("mega2X").style.color = "black";
     document.getElementById("MegaPic2Y").style.pointerEvents = "visible";
