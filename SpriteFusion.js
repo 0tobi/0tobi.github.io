@@ -1935,7 +1935,7 @@ function randomImg2() {
   var rand = name2[Math.floor(Math.random() * name2.length)];
   var fullPath = document.getElementById("pic1").src;
   var filename = fullPath.replace(/\.[^/.]+$/, "")
-
+  document.getElementById("number").innerHTML = "(" + res + "." + test2 + ")";
   document.getElementById("pic2").src = "../sprites/" + test2 + ".png";
   var cut = document.getElementById("pic3").src = "../sprites/fused/" + filename;
   var res = cut.substr(77);
