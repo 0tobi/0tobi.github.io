@@ -1938,7 +1938,7 @@ function randomImg2() {
   document.getElementById("number").innerHTML = "(" + res + "." + test2 + ")";
   document.getElementById("pic2").src = "../sprites/" + test2 + ".png";
   var cut = document.getElementById("pic3").src = "../sprites/fused/" + filename;
-  var res = cut.substr(15);
+  var res = cut.substr(50);
   document.getElementById("pic3").src = "../sprites/fused/" + res + "." + test2 + ".png";
   document.getElementById("select2").value = test2;
   document.getElementById("suffix").innerHTML = name2[test2];
