@@ -1934,7 +1934,7 @@ function randomImg2() {
   var test2 = name2.indexOf(name2[Math.floor(Math.random() * name2.length)]);
   var rand = name2[Math.floor(Math.random() * name2.length)];
   var getpic = document.getElementById("pic1").src;
-  var res = getpic.substr(10);
+  var res = getpic.substr(32);
   console.log(res);
   document.getElementById("pic2").src = "../sprites/" + test2 + ".png";
   document.getElementById("pic3").src = "../sprites/fused/" + res + "." + test2 + ".png";
