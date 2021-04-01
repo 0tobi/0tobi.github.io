@@ -1935,10 +1935,11 @@ function randomImg2() {
   var rand = name2[Math.floor(Math.random() * name2.length)];
   var getpic = document.getElementById("pic1").src;
   var res = getpic.substr(32);
+  var res2 = res.split('.')[0];
   console.log(res);
   document.getElementById("pic2").src = "../sprites/" + test2 + ".png";
-  document.getElementById("pic3").src = "../sprites/fused/" + res + "." + test2 + ".png";
-  document.getElementById("number").innerHTML = "(" + res + "." + test2 + ")";
+  document.getElementById("pic3").src = "../sprites/fused/" + res2 + "." + test2 + ".png";
+  document.getElementById("number").innerHTML = "(" + res2 + "." + test2 + ")";
   document.getElementById("select2").value = test2;
   document.getElementById("suffix").innerHTML = name2[test2];
   document.getElementById("shinies").checked = false;
