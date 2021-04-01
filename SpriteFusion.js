@@ -1821,7 +1821,7 @@ function randomImg() {
   var test = name1.indexOf(name1[Math.floor(Math.random() * name1.length)]);
   var rand = name1[Math.floor(Math.random() * name1.length)];
   var str = document.getElementById("pic2").src;
-  var res = str.substr(60);
+  var res = str.substr(32);
   var file = res
   file = file.split(".");
   file = file[0] + "";
