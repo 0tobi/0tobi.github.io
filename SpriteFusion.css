@@ -676,4 +676,10 @@ width: 12%;
     html {
       -webkit-overflow-scrolling: auto; /* on arrête le défilement immédiatement */
     }
+
+    .five{
+      width: 50%;
+
+
+    }
 }
