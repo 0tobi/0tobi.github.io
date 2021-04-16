@@ -668,7 +668,7 @@ width: 12%;
     margin-top: 0.5%;
     color: #000000;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 20%;
     font-weight: 500;
     box-sizing: border-box;
     width: auto;
@@ -679,12 +679,12 @@ width: 12%;
     }
 
     #flag {
-      margin-left: 80%;
-      padding-top: 0.3%;
+      margin-left: 83%;
+      padding-top: 3%;
     }
     
     .usflag {
-    width: 12%;
+    width: 80%;
     
     }
 
