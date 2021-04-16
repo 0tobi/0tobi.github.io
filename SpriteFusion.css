@@ -673,12 +673,14 @@ width: 12%;
     box-sizing: border-box;
     width: auto;
     }
+    .wrapper{
+      position: relative;
+    }
     .one{
       width: 120%;
     }
     #FuseName {
       margin-left: -50%;
-      position: relative;
     }
     #type1{
       margin-left: -50%;
