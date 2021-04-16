@@ -652,6 +652,10 @@ img {
 
 #flag {
   margin-left: 60%;
-  margin-top: 0.6%;
-  width: 5%;
+  margin-top: 0.3%;
+}
+
+.usflag {
+width: 12%;
+
 }
