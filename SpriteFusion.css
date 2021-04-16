@@ -674,7 +674,13 @@ width: 12%;
     width: auto;
     }
     .one{
-      width: 50%;
+      width: 120%;
+    }
+    #FuseName {
+      margin-left: -50%;
+    }
+    #type1{
+      margin-left: -50%;
     }
     .five{
       width: 63%;
