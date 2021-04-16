@@ -686,10 +686,9 @@ width: 12%;
     .two{
       text-align: unset ;
       padding-left: 10%;
-      margin-left: -55%;
+      margin-left: -35%;
     }
     #pic1{
-      width: 85%;
       margin-top: 25%;
     }
     #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
@@ -721,7 +720,6 @@ width: 12%;
       margin-left: -55%;
     }
     #pic2{
-      width: 85%;
       margin-top: 25%;
     }
     #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
