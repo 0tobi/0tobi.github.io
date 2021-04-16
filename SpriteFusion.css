@@ -672,6 +672,8 @@ width: 12%;
     font-weight: 500;
     box-sizing: border-box;
     width: auto;
-  
-  }
+    }
+    html {
+      -webkit-overflow-scrolling: auto; /* on arrête le défilement immédiatement */
+    }
 }
