@@ -650,49 +650,12 @@ img {
   padding: 4px;
 }
 
-
-
-
-
-
-
-#retour {
-
+#flag {
   margin-left: 60%;
-  margin-top: 0.6%;
-  position: relative;
-  box-shadow: 0px 5px #312f2f;
-  background: linear-gradient(to bottom, #c62d1f 55%, #ffffff 50%);
-  background-color: #c62d1f;
-  border-radius: 42px;
-  display: inline-block;
-  cursor: pointer;
-  color: #000000;
-  font-family: Arial;
-  font-size: 100%;
-  padding: 7px 25px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #810e05;
-
+  padding-top: 0.3%;
 }
-#retour a:link {
 
-  text-decoration: none;
+.usflag {
+width: 12%;
 
-}
-#retour:hover {
-  background: linear-gradient(to bottom, #f24437 50%, #ffffff 50%);
-  background-color: #f24437;
-}
-#retour:active {
-  position: relative;
-  top: 1px;
-  background-color: #3e8e41;
-  box-shadow: 0px 3px #0b0500;
-  transform: translateY(4px);
-}
-#retour a:visited {
-
-  color: #000000;
-  text-decoration: none;
 }

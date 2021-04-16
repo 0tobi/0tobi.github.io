@@ -2931,3 +2931,7 @@ function getName2() {
   }
 typeweak();
 }
+
+function imageClick(url) {
+  window.location = url;
+}
