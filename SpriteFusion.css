@@ -720,6 +720,7 @@ width: 12%;
     }
     #pic2{
       width: 85%;
+      margin-top: 25%;
     }
     #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
 
@@ -739,8 +740,8 @@ width: 12%;
 
     }
     #select2{
-      width: 15%;
-    margin-left: -5%;
+      width: 25%;
+      margin-left: 5%;
     }
     .five{
       width: 63%;
