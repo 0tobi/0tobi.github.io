@@ -662,16 +662,7 @@ width: 12%;
 
 @media only screen and (max-width: 800px) {
   #header h1 {
-    font: pocket_monkregular, Arial, sans-serif;
-    text-align: center;
     font-size: 150%;
-    margin-top: 0.5%;
-    color: #000000;
-    position: absolute;
-    margin-left: 20%;
-    font-weight: 500;
-    box-sizing: border-box;
-    width: auto;
     }
     .wrapper{
       position: relative;
@@ -681,34 +672,23 @@ width: 12%;
     }
     #FuseName {
       margin-left: -50%;
+      position: absolute;
     }
-    #type1{
-      margin-left: -50%;
+    #FuseType{
+      position: absolute;
     }
     .two{
       text-align: unset ;
-      padding-left: 10%;
-      margin-left: -35%;
     }
     #pic1{
       margin-top: 25%;
     }
     #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
-
-      image-rendering: optimizespeed;
-      image-rendering: pixelated;
-      display: none;
       width: 65%;
-
     }
     
     #icon1-megax, #icon1-megay, #icon1-alola1, #icon1-galar1, #icon1-gigan, #icon1-altform, #icon1-altform2, #icon1-altgalarform2, #icon1-altform3, #icon1-altform4, #icon1-altform5 {
-    
-      image-rendering: optimizespeed;
-      image-rendering: pixelated;
-      display: none;
       width: 65%;
-    
     }
     #select1{
       width: 25%;
@@ -719,27 +699,16 @@ width: 12%;
     }
     .four{
       text-align:unset ;
-      margin-left: -55%;
     }
     #pic2{
       margin-top: 25%;
     }
     #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
-
-      image-rendering: optimizespeed;
-      image-rendering: pixelated;
-      display: none;
         width: 65%;
-
     }
     
     #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
-    
-      image-rendering: optimizespeed;
-      image-rendering: pixelated;
-      display: none;
         width: 65%;
-
     }
     #select2{
       width: 25%;
