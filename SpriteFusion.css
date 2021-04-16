@@ -686,6 +686,7 @@ width: 12%;
     .two{
       text-align: unset ;
       padding-left: 10%;
+      margin-left: -55%;
     }
     #pic1{
       width: 85%;
