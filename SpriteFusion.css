@@ -678,6 +678,7 @@ width: 12%;
     }
     #FuseName {
       margin-left: -50%;
+      position: relative;
     }
     #type1{
       margin-left: -50%;
