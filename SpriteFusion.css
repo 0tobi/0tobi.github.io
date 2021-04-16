@@ -673,14 +673,16 @@ width: 12%;
     box-sizing: border-box;
     width: auto;
     }
-
+    .one{
+      width: 50%;
+    }
     .five{
       width: 63%;
     }
 
     #flag {
-      margin-left: 83%;
-      padding-top: 3%;
+      margin-left: 80%;
+      padding-top: 2.5%;
     }
     
     .usflag {
