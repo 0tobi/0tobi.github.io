@@ -675,10 +675,9 @@ width: 12%;
     }
     #FuseName {
       margin-left: -50%;
-      position: absolute;
     }
     #FuseType{
-      position: absolute;
+
     }
     .two{
       text-align: unset ;
