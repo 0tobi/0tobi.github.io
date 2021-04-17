@@ -677,20 +677,28 @@ width: 12%;
       margin-left: -50%;
     }
     #FuseType{
-
+      margin-left: -45%;
+    }
+    #number{
+      margin-left: 17%;
     }
     .two{
       text-align: unset ;
     }
     #pic1{
       margin-top: 25%;
+      margin-left: 10%;
+      width: 90%;
+    }
+    #random1{
+      margin-left: 10%;
     }
     #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
-      width: 65%;
+      width: 90%;
     }
     
     #icon1-megax, #icon1-megay, #icon1-alola1, #icon1-galar1, #icon1-gigan, #icon1-altform, #icon1-altform2, #icon1-altgalarform2, #icon1-altform3, #icon1-altform4, #icon1-altform5 {
-      width: 65%;
+      width: 90%;
     }
     #select1{
       width: 25%;
@@ -700,25 +708,33 @@ width: 12%;
       padding-top: 100%;
     }
     .four{
-      text-align:unset ;
+      text-align: unset;
     }
     #pic2{
       margin-top: 25%;
+      width: 90%;
     }
     #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
-        width: 65%;
+        width: 90%;
     }
     
     #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
-        width: 65%;
+        width: 90%;
     }
     #select2{
       width: 25%;
-      margin-left: 5%;
+
+    }
+    #random2{
+
     }
     .five{
       width: 63%;
       visibility: hidden;
+    }
+
+    .six{
+      margin-left: 105%;
     }
 
     #flag {
