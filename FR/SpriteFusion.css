@@ -376,6 +376,7 @@ position: absolute;
   image-rendering: pixelated;
   margin-top: 10%;
   width: 35%;
+  max-width: 100%;
   border-radius: 30%;
   border: solid;
   background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
@@ -459,6 +460,7 @@ position: absolute;
   image-rendering: pixelated;
   margin-top: 10%;
   width: 35%;
+  max-width: 100%;
   border-radius: 30%;
   border: solid;
   background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
@@ -657,5 +659,151 @@ img {
 
 .usflag {
 width: 12%;
+
+}
+
+#type1_mobile, #type2_mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  #header h1 {
+    margin-left: 20%;
+    font-size: 150%;
+    }
+    .wrapper{
+      position: absolute;
+    }
+    .one{
+      position: absolute;
+      text-align: center;
+    }
+    #FuseName{
+      position: absolute;
+      text-align: unset;
+    }
+    #preffix,
+    #suffix {
+    
+      font-size: 250%;
+      font-family: pocket_monkregular, Arial, sans-serif;
+    }
+    #megaoui,
+    #megaouixy{
+      font-size: 250%;
+      margin-left: -64%;
+    }
+    #alola,
+    #galar,
+     #Gigantamax{
+      font-size: 250%;
+      font-family: pocket_monkregular, Arial, sans-serif;
+    }
+    #FuseType{
+      display: none;
+    }
+    #type1{
+      margin-left: -115%;
+      margin-top: 95%;
+    }
+    #type2{
+      margin-left: 150%;
+      margin-top: -22%;
+    }
+    #FuseTypeMobile{
+      display: block;
+    }
+    #type1_mobile, #type2_mobile {
+      display: block;
+    }  
+    
+    #type1_mobile{
+      margin-left: -115%;
+    margin-top: 95%;
+    }
+
+    #type2_mobile{
+      margin-left: 150%;
+    margin-top: -22%;
+    }
+    
+    #number {
+      display: none;
+    }
+    .two{
+      margin-top: 100%;
+    }
+    #pic1{
+      width: 85%;
+    }
+    #random1{
+      margin-left: 5%;
+    }
+    
+    #select1{
+      width: 90%;
+      position: relative;
+    }
+    .three{
+      margin-top: 300%;
+    }
+    #pic3{
+      width: 100%;
+      margin-left: -5%;
+    }
+    .four{
+      margin-top: 100%;
+    }
+    #pic2{
+      width: 85%;
+    }
+    
+    #select2{
+      width: 90%;
+      position: relative;
+    }
+    #random2{
+      margin-left: -1%;
+    }
+    .five{
+      width: 63%;
+      visibility: hidden;
+    }
+
+    .six{
+      margin-top: 100%;
+      margin-left: 90%;
+    }
+
+    #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
+      width: 75%;
+    }
+    
+    #icon1-megax, #icon1-megay, #icon1-alola1, #icon1-galar1, #icon1-gigan, #icon1-altform, #icon1-altform2, #icon1-altgalarform2, #icon1-altform3, #icon1-altform4, #icon1-altform5 {
+      width: 75%;
+    }
+
+    .seven{
+      margin-top: 100%;
+      margin-left: -40%;
+    }
+
+    #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
+      width: 75%;
+    }
+    
+    #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
+      width: 75%;
+    }
+
+    #flag {
+      margin-left: 80%;
+      padding-top: 2.5%;
+    }
+    
+    .usflag {
+    width: 80%;
+    
+    }
 
 }
