@@ -662,6 +662,10 @@ width: 12%;
 
 }
 
+#type1_mobile, #type2_mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 800px) {
   #header h1 {
     margin-left: 20%;
@@ -672,6 +676,11 @@ width: 12%;
     }
     .one{
       position: absolute;
+      text-align: center;
+    }
+    #FuseName{
+      position: absolute;
+      text-align: unset;
     }
     #preffix,
     #suffix {
@@ -691,15 +700,33 @@ width: 12%;
       font-family: pocket_monkregular, Arial, sans-serif;
     }
     #FuseType{
-
+      display: none;
     }
     #type1{
+      margin-left: -115%;
+      margin-top: 95%;
+    }
+    #type2{
+      margin-left: 150%;
+      margin-top: -22%;
+    }
+    #FuseTypeMobile{
+      display: block;
+    }
+    #type1_mobile, #type2_mobile {
+      display: block;
+    }  
+    
+    #type1_mobile{
+      margin-left: -115%;
+    margin-top: 95%;
+    }
 
+    #type2_mobile{
+      margin-left: 150%;
+    margin-top: -22%;
     }
-       
-    #type2 {
-      margin-left: 0%;
-    }
+    
     #number {
       display: none;
     }
