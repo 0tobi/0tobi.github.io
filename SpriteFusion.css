@@ -668,65 +668,75 @@ width: 12%;
     font-size: 150%;
     }
     .wrapper{
-      position: relative;
+      position: absolute;
     }
     .one{
-      width: 120%;
+      position: absolute;
     }
-    #FuseName {
-      margin-left: -50%;
+    #preffix,
+    #suffix {
+    
+      font-size: 250%;
+      font-family: pocket_monkregular, Arial, sans-serif;
+    }
+    #megaoui,
+    #megaouixy{
+      font-size: 250%;
+      margin-left: -60%;
+    }
+    #alola,
+    #galar,
+     #gigamax{
+      font-size: 250%;
+      font-family: pocket_monkregular, Arial, sans-serif;
     }
     #FuseType{
-      margin-left: -45%;
+
     }
-    #number{
-      margin-left: 17%;
+    #type1{
+
+    }
+       
+    #type2 {
+      margin-left: 0%;
+    }
+    #number {
+      display: none;
     }
     .two{
-      text-align: unset ;
+      margin-top: 100%;
     }
     #pic1{
-      margin-top: 25%;
-      margin-left: 10%;
-      width: 90%;
+      width: 85%;
     }
     #random1{
-      margin-left: 10%;
-    }
-    #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
-      width: 90%;
-    }
-    
-    #icon1-megax, #icon1-megay, #icon1-alola1, #icon1-galar1, #icon1-gigan, #icon1-altform, #icon1-altform2, #icon1-altgalarform2, #icon1-altform3, #icon1-altform4, #icon1-altform5 {
-      width: 90%;
-    }
-    #select1{
-      width: 25%;
       margin-left: 5%;
     }
+    
+    #select1{
+      width: 90%;
+      position: relative;
+    }
     .three{
-      padding-top: 100%;
+      margin-top: 300%;
+    }
+    #pic3{
+      width: 100%;
+      margin-left: -5%;
     }
     .four{
-      text-align: unset;
+      margin-top: 100%;
     }
     #pic2{
-      margin-top: 25%;
-      width: 90%;
-    }
-    #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
-        width: 90%;
+      width: 85%;
     }
     
-    #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
-        width: 90%;
-    }
     #select2{
-      width: 25%;
-
+      width: 90%;
+      position: relative;
     }
     #random2{
-
+      margin-left: -1%;
     }
     .five{
       width: 63%;
@@ -734,7 +744,29 @@ width: 12%;
     }
 
     .six{
-      margin-left: 105%;
+      margin-top: 100%;
+      margin-left: 90%;
+    }
+
+    #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
+      width: 75%;
+    }
+    
+    #icon1-megax, #icon1-megay, #icon1-alola1, #icon1-galar1, #icon1-gigan, #icon1-altform, #icon1-altform2, #icon1-altgalarform2, #icon1-altform3, #icon1-altform4, #icon1-altform5 {
+      width: 75%;
+    }
+
+    .seven{
+      margin-top: 100%;
+      margin-left: -40%;
+    }
+
+    #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
+      width: 75%;
+    }
+    
+    #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
+      width: 75%;
     }
 
     #flag {
