@@ -681,6 +681,7 @@ width: 12%;
     #FuseName{
       position: absolute;
       text-align: unset;
+      margin-top: -10%;
     }
     #preffix,
     #suffix {
@@ -691,7 +692,6 @@ width: 12%;
     #megaoui,
     #megaouixy{
       font-size: 250%;
-      margin-left: -64%;
     }
     #alola,
     #galar,
@@ -771,7 +771,7 @@ width: 12%;
     }
 
     .six{
-      margin-top: 100%;
+      margin-top: 120%;
       margin-left: 90%;
     }
 
@@ -784,7 +784,7 @@ width: 12%;
     }
 
     .seven{
-      margin-top: 100%;
+      margin-top: 120%;
       margin-left: -40%;
     }
 
