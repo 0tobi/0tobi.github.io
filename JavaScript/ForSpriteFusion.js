@@ -3608,9 +3608,9 @@ function iconAlola1() {
   var alolapic2 = document.getElementById("pic1").src;
   var test = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var test1 = test.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var test1 = test.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
   var alolares3 = alolares1.replace(/.png|g.png/, "a.png");
   document.getElementById("pic1").src = "./sprites/" + alolares3;
@@ -3682,11 +3682,11 @@ function iconAlolaMiaouss() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "a" + '.' + test1;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
   var alolares3 = alolares1.replace(/.png|g.png/, "a.png");
   document.getElementById("pic1").src = "./sprites/" + alolares3;
@@ -3710,8 +3710,8 @@ function iconNormal1() {
 
   var test3 = document.getElementById("pic1").src;
     var test5 = document.getElementById("pic3").src;
-    var res5 = test3.substring(62);
-    var res9 = test5.substring(68);
+    var res5 = test3.substring(32);
+    var res9 = test5.substring(33);
     var res7 = res5.replace(/a.|m.|g.|mx.|my.|_1.|_2.|g_2.|_3.|_4.|_5./, ".");
     var res10 = res9.replace(/a.|m.|g.|mx.|my.|_1.|_2.|g_2.|_3.|_4.|_5./, ".");
   document.getElementById("pic1").src = "./sprites/" + res7;
@@ -3726,33 +3726,33 @@ function iconNormal1() {
   document.getElementById("select2").disabled = false;
   document.getElementById("icon1").style.display = "none";
   var iconalola1 = document.getElementById("icon1-alola").src;
-  var iconalolares1 = iconalola1.substring(61);
+  var iconalolares1 = iconalola1.substring(31);
   var iconmega1 = document.getElementById("icon1-mega").src;
-  var iconmegares1 = iconmega1.substring(61);
+  var iconmegares1 = iconmega1.substring(31);
   var icongalar1 = document.getElementById("icon1-galar").src;
-  var icongalarres1 = icongalar1.substring(61);
+  var icongalarres1 = icongalar1.substring(31);
   var iconmegax1 = document.getElementById("icon1-megax").src;
-  var iconmegaxres1 = iconmegax1.substring(61);
+  var iconmegaxres1 = iconmegax1.substring(31);
   var iconmegay1 = document.getElementById("icon1-megay").src;
-  var iconmegayres1 = iconmegay1.substring(61);
+  var iconmegayres1 = iconmegay1.substring(31);
   var icon1galar1 = document.getElementById("icon1-galar1").src;
-  var icon1galarres1 = icon1galar1.substring(61);
+  var icon1galarres1 = icon1galar1.substring(31);
   var icon1alola1 = document.getElementById("icon1-alola1").src;
-  var icon1alolares1 = icon1alola1.substring(61);
+  var icon1alolares1 = icon1alola1.substring(31);
   var icongigan1 = document.getElementById("icon1-gigan").src;
-  var icongiganres1 = icongigan1.substring(61);
+  var icongiganres1 = icongigan1.substring(31);
   var iconaltform1 = document.getElementById("icon1-altform").src;
-  var iconaltformres1 = iconaltform1.substring(61);
+  var iconaltformres1 = iconaltform1.substring(31);
   var iconaltform2 = document.getElementById("icon1-altform2").src;
-  var iconaltform2res1 = iconaltform2.substring(61);
+  var iconaltform2res1 = iconaltform2.substring(31);
   var iconaltgalarform2 = document.getElementById("icon1-altgalarform2").src;
-  var iconaltgalarform2res1 = iconaltgalarform2.substring(61);
+  var iconaltgalarform2res1 = iconaltgalarform2.substring(31);
   var iconaltform3 = document.getElementById("icon1-altform3").src;
-  var iconaltform3res1 = iconaltform3.substring(61);
+  var iconaltform3res1 = iconaltform3.substring(31);
   var iconaltform4 = document.getElementById("icon1-altform4").src;
-  var iconaltform4res1 = iconaltform4.substring(61);
+  var iconaltform4res1 = iconaltform4.substring(31);
   var iconaltform5 = document.getElementById("icon1-altform5").src;
-  var iconaltform5res1 = iconaltform5.substring(61);
+  var iconaltform5res1 = iconaltform5.substring(31);
   document.getElementById("icon1-mega").src = "./icons/" + iconmegares1;
   document.getElementById("icon1-alola").src = "./icons/" + iconalolares1;
   document.getElementById("icon1-galar").src = "./icons/" + icongalarres1;
@@ -4412,12 +4412,12 @@ function iconMega1() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
   var alolares3 = alolares1.replace(".png", "m.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
   document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "m" + '.' + test1;
   document.getElementById("megaoui").innerHTML = "Mega ";
@@ -4578,12 +4578,12 @@ function iconGigan1() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
   var alolares3 = alolares1.replace(".png", "_1.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
    document.getElementById("pic1").src = "./sprites/" + alolares3;
    document.getElementById("pic3").src = "./sprites/fused/" + test2 + "_1" + '.' + test1;
    document.getElementById("Gigantamax").innerHTML = " Gigantamax ";
@@ -4703,12 +4703,12 @@ function iconGalar1() {
 
   var galarpic2 = document.getElementById("pic1").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substring(62);
-  var galarres4 = galarpic3.substring(68);
+  var galarres1 = galarpic2.substring(32);
+  var galarres4 = galarpic3.substring(33);
    var test2 = galarres4.split('.')[0];
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + galarres3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "g" + '.' + test1;
   document.getElementById("galar").innerHTML = "Galarian ";
@@ -4782,12 +4782,12 @@ function iconGalarMiaouss() {
 
   var galarpic2 = document.getElementById("pic1").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substring(62);
-  var galarres4 = galarpic3.substring(68);
+  var galarres1 = galarpic2.substring(32);
+  var galarres4 = galarpic3.substring(33);
   var test2 = galarres4.split('.')[0];
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + galarres3;
     document.getElementById("pic3").src = "./sprites/fused/" + test2 + "g" + '.' + test1;
     document.getElementById("galar").innerHTML = "Galarian ";
@@ -4811,12 +4811,12 @@ function iconMega1X() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
   var alolares3 = alolares1.replace(".png", "mx.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "mx" + "." + test1;
   document.getElementById("megaoui").innerHTML = "Mega ";
@@ -4841,12 +4841,12 @@ function iconMega1Y() {
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(".png", "my.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "my" + "." + test1;
   document.getElementById("megaoui").innerHTML = "Mega ";
@@ -4871,12 +4871,12 @@ function icon1AltForm(){
 
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(".png", "_1.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);  
+  var test1 = test.substring(32);  
   document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "_1" + "." + test1;
   document.getElementById("select1").disabled = true;
@@ -4963,14 +4963,14 @@ function icon1AltForm2(){
   var alolapic2 = document.getElementById("pic1").src;
 
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
+  var alolares1 = alolapic2.substring(32);
 
-  var alolares4 = alolapic3.substring(68);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(/.png|g_2.png/, "_2.png");
 
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
 
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "_1" + "." + test1;
@@ -5019,12 +5019,12 @@ function icon1AltGalarForm2(){
   
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var galarres6 = alolares1.replace(/.png|g_2.png/, "g_2.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + galarres6;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + 'g_2' + "." + test1;
   document.getElementById("select1").disabled = true;
@@ -5049,12 +5049,12 @@ function icon1AltForm3(){
   
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(".png", "_3.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + '_3' + '.' + test1;
   document.getElementById("select1").disabled = true;
@@ -5091,12 +5091,12 @@ function icon1AltForm4(){
   
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(".png", "_4.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + "_4" + "." + test1;
   document.getElementById("select1").disabled = true;
@@ -5118,12 +5118,12 @@ function icon1AltForm5(){
   
   var alolapic2 = document.getElementById("pic1").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var test2 = alolares4.split('.')[0];
     var alolares3 = alolares1.replace(".png", "_5.png");
   var test = document.getElementById("pic2").src;
-  var test1 = test.substring(62);
+  var test1 = test.substring(32);
     document.getElementById("pic1").src = "./sprites/" + alolares3;
   document.getElementById("pic3").src = "./sprites/fused/" + test2 + '_5' + '.' + test1;
   document.getElementById("select1").disabled = true;
@@ -5147,8 +5147,8 @@ function iconAlola2() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares2 = alolares1.replace(/.png|g.png/, "a.png");
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic2").src = "./sprites/" + alolares2;
@@ -5220,8 +5220,8 @@ function iconAlolaMiaouss2() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(/.png|g.png/, "a.png");
   var alolares5 = alolares4.replace(/.png|a.png|g.png/, "a.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -5245,8 +5245,8 @@ function iconNormal2() {
 
   var test3 = document.getElementById("pic2").src;
     var test5 = document.getElementById("pic3").src;
-    var res5 = test3.substring(62);
-    var res9 = test5.substring(68);
+    var res5 = test3.substring(32);
+    var res9 = test5.substring(33);
     var res7 = res5.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
     var res10 = res9.replace(/a.png|m.png|g.png|mx.png|my.png|_1.png|_2.png|g_2.png|_3.png|_4.png|_5.png/, ".png");
     document.getElementById("pic2").src = "./sprites/" + res7;
@@ -5261,33 +5261,33 @@ function iconNormal2() {
   document.getElementById("select2").disabled = false;
   document.getElementById("icon2").style.display = "none";
   var iconalola1 = document.getElementById("icon2-alola").src;
-  var iconalolares1 = iconalola1.substring(61);
+  var iconalolares1 = iconalola1.substring(31);
   var iconmega1 = document.getElementById("icon2-mega").src;
-  var iconmegares1 = iconmega1.substring(61);
+  var iconmegares1 = iconmega1.substring(31);
   var icongalar1 = document.getElementById("icon2-galar").src;
-  var icongalarres1 = icongalar1.substring(61);
+  var icongalarres1 = icongalar1.substring(31);
   var iconmegax1 = document.getElementById("icon2-megax").src;
-  var iconmegaxres1 = iconmegax1.substring(61);
+  var iconmegaxres1 = iconmegax1.substring(31);
   var iconmegay1 = document.getElementById("icon2-megay").src;
-  var iconmegayres1 = iconmegay1.substring(61);
+  var iconmegayres1 = iconmegay1.substring(31);
   var icon1galar1 = document.getElementById("icon2-galar1").src;
-  var icon1galarres1 = icon1galar1.substring(61);
+  var icon1galarres1 = icon1galar1.substring(31);
   var icon1alola1 = document.getElementById("icon2-alola1").src;
-  var icon1alolares1 = icon1alola1.substring(61);
+  var icon1alolares1 = icon1alola1.substring(31);
   var icongigan1 = document.getElementById("icon2-gigan").src;
-  var icongiganres1 = icongigan1.substring(61);
+  var icongiganres1 = icongigan1.substring(31);
   var iconaltform1 = document.getElementById("icon2-altform").src;
-  var iconaltformres1 = iconaltform1.substring(61);
+  var iconaltformres1 = iconaltform1.substring(31);
   var iconaltform2 = document.getElementById("icon2-altform2").src;
-  var iconaltform2res1 = iconaltform2.substring(61);
+  var iconaltform2res1 = iconaltform2.substring(31);
   var iconaltgalarform2 = document.getElementById("icon2-altgalarform2").src;
-  var iconaltgalarform2res1 = iconaltgalarform2.substring(61);
+  var iconaltgalarform2res1 = iconaltgalarform2.substring(31);
   var iconaltform3 = document.getElementById("icon2-altform3").src;
-  var iconaltform3res1 = iconaltform3.substring(61);
+  var iconaltform3res1 = iconaltform3.substring(31);
   var iconaltform4 = document.getElementById("icon2-altform4").src;
-  var iconaltform4res1 = iconaltform4.substring(61);
+  var iconaltform4res1 = iconaltform4.substring(31);
   var iconaltform5 = document.getElementById("icon2-altform5").src;
-  var iconaltform5res1 = iconaltform5.substring(61);
+  var iconaltform5res1 = iconaltform5.substring(31);
   document.getElementById("icon2-mega").src = "./icons/" + iconmegares1;
   document.getElementById("icon2-alola").src = "./icons/" + iconalolares1;
   document.getElementById("icon2-galar").src = "./icons/" + icongalarres1;
@@ -5944,8 +5944,8 @@ function iconMega2() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var megares2 = alolares1.replace(".png", "m.png");
   var alolares5 = alolares4.replace(/.png|m.png/, "m.png");
   document.getElementById("pic2").src = "./sprites/" + megares2;
@@ -6098,8 +6098,8 @@ function iconGigan2() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(".png", "_1.png");
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -6219,8 +6219,8 @@ function iconGalar2() {
 
   var galarpic2 = document.getElementById("pic2").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substring(62);
-  var galarres4 = galarpic3.substring(68);
+  var galarres1 = galarpic2.substring(32);
+  var galarres4 = galarpic3.substring(33);
   var alolares3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -6286,8 +6286,8 @@ function iconGalarMiaouss2() {
 
   var galarpic2 = document.getElementById("pic2").src;
   var galarpic3 = document.getElementById("pic3").src;
-  var galarres1 = galarpic2.substring(62);
-  var galarres4 = galarpic3.substring(68);
+  var galarres1 = galarpic2.substring(32);
+  var galarres4 = galarpic3.substring(33);
   var galarres3 = galarres1.replace(/.png|a.png/, "g.png");
   var galarres5 = galarres4.replace(/.png|g.png|a.png/, "g.png");
   document.getElementById("pic2").src = "./sprites/" + galarres3;
@@ -6312,8 +6312,8 @@ function iconMega2X() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var megares2 = alolares1.replace(".png", "mx.png");
   var alolares5 = alolares4.replace(/.png|mx.png/, "mx.png");
   document.getElementById("pic2").src = "./sprites/" + megares2;
@@ -6341,8 +6341,8 @@ function iconMega2Y() {
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var megares2 = alolares1.replace(".png", "my.png");
   var alolares5 = alolares4.replace(/.png|my.png/, "my.png");
   document.getElementById("pic2").src = "./sprites/" + megares2;
@@ -6370,8 +6370,8 @@ function icon2AltForm(){
 
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(".png", "_1.png");
   var alolares5 = alolares4.replace(/.png|_1.png/, "_1.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -6466,9 +6466,9 @@ function icon2AltForm2(){
   var alolapic2 = document.getElementById("pic2").src;
 
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
+  var alolares1 = alolapic2.substring(32);
 
-  var alolares4 = alolapic3.substring(68);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(/.png|g_2.png/, "_2.png");
 
   var alolares5 = alolares4.replace(/.png|_2.png|g_2.png/, "_2.png");
@@ -6522,8 +6522,8 @@ function icon2AltGalarForm2(){
   
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var galarres6 = alolares1.replace(/.png|g_2.png/, "g_2.png");
   var alolares5 = alolares4.replace(/.png|_2.png|g_2.png/, "g_2.png");
   document.getElementById("pic2").src = "./sprites/" + galarres6;
@@ -6550,8 +6550,8 @@ function icon2AltForm3(){
   
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(".png", "_3.png");
   var alolares5 = alolares4.replace(/.png|_3.png/, "_3.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -6590,8 +6590,8 @@ function icon2AltForm4(){
   
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(".png", "_4.png");
   var alolares5 = alolares4.replace(/.png|_4.png/, "_4.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
@@ -6616,8 +6616,8 @@ function icon2AltForm5(){
   
   var alolapic2 = document.getElementById("pic2").src;
   var alolapic3 = document.getElementById("pic3").src;
-  var alolares1 = alolapic2.substring(62);
-  var alolares4 = alolapic3.substring(68);
+  var alolares1 = alolapic2.substring(32);
+  var alolares4 = alolapic3.substring(33);
   var alolares3 = alolares1.replace(".png", "_5.png");
   var alolares5 = alolares4.replace(/.png|_5.png/, "_5.png");
   document.getElementById("pic2").src = "./sprites/" + alolares3;
