@@ -2640,7 +2640,7 @@ function getName2() {
   document.getElementById("pic2").src = "./sprites/" + x.options[i].value + ".png";
   var imgName4 = x.options[i].value + ".png";
   var getpic = document.getElementById("pic1").src;
-  var res = getpic.substr(65);
+  var res = getpic.substr(32);
   var res2 = res.split('.')[0];
   document.getElementById("pic2").src = "./sprites/" + imgName4;
   document.getElementById("suffix").innerHTML = name2[test2];
