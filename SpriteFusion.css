@@ -220,6 +220,6 @@
 
 /* Pour faiblesses */
 
-.pokemon__weaknesses{
+#pokemon__weaknesses{
   margin-top: 90px;
 }
