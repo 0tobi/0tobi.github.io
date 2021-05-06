@@ -223,3 +223,9 @@
 #pokemon__weaknesses{
   margin-top: 90px;
 }
+
+/* Pour mobile */
+
+#type1_mobile, #type2_mobile {
+  display: none;
+}
