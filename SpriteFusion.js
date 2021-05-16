@@ -1820,7 +1820,6 @@ function randomImg() {
   var file = res
   file = file.split(".");
   file = file[0] + "";
-  document.getElementById("number").innerHTML = "(" + test + "." + res + ")";
   document.getElementById("pic1").src = "./sprites/" + test + ".png";
   document.getElementById("pic3").src = "./sprites/fused/" + test + "." + res;
   document.getElementById("icon1").src = "./icons/" + test + ".png";
@@ -1954,7 +1953,6 @@ function randomImg2() {
   console.log(res);
   document.getElementById("pic2").src = "./sprites/" + test2 + ".png";
   document.getElementById("pic3").src = "./sprites/fused/" + res2 + "." + test2 + ".png";
-  document.getElementById("number").innerHTML = "(" + res2 + "." + test2 + ")";
   document.getElementById("select2").value = test2;
   document.getElementById("suffix").innerHTML = name2[test2];
   document.getElementById("shinies").checked = false;
@@ -2077,7 +2075,6 @@ function randomImg3() {
   document.getElementById("icon2").src = "./icons/" + test2 + ".png";
   document.getElementById("preffix").innerHTML = name1[test];
   document.getElementById("suffix").innerHTML = name2[test2];
-  document.getElementById("number").innerHTML = "(" + test + "." + test2 + ")";
   document.getElementById("pic3").src = "./sprites/fused/" + test + "." + test2 + ".png";
   document.getElementById("select1").value = test;
   document.getElementById("select2").value = test2;
@@ -2477,7 +2474,6 @@ function getName() {
   document.getElementById("pic1").src = "./sprites/" + imgName;
   document.getElementById("pic3").src = "./sprites/fused/" + imgName2 + res;
   document.getElementById("preffix").innerHTML = name1[test];
-  document.getElementById("number").innerHTML = "(" + test + "." + res + ")";
   document.getElementById("shinies").checked = false;
   document.getElementById("shinies").style.pointerEvents = "visible";
   document.getElementById("shiny").style.color = "black";
@@ -2645,7 +2641,6 @@ function getName2() {
   document.getElementById("pic2").src = "./sprites/" + imgName4;
   document.getElementById("suffix").innerHTML = name2[test2];
   document.getElementById("pic3").src = "./sprites/fused/" + res2 + "." + imgName4;
-  document.getElementById("number").innerHTML = "(" + res2 + "." + imgName4 + ")";
   document.getElementById("shinies").checked = false;
   document.getElementById("shinies").style.pointerEvents = "visible";
   document.getElementById("shiny").style.color = "black";
@@ -2801,4 +2796,22 @@ typeweak();
 
 function imageClick(url) {
   window.location = url;
+}
+
+/* Next poke */
+
+function incrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById('number').value = value;
+}
+
+function decrementValue()
+{
+    var value = parseInt(document.getElementById('number').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value--;
+    document.getElementById('number').value = value;
 }
