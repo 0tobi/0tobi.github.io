@@ -2818,6 +2818,8 @@ typeweak();
 
 var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
 
+console.log(random);
+
 if (random == '1.255'){
   document.getElementById("button__other").style.display = 'block';
 }
@@ -2840,7 +2842,7 @@ function incrementValue()
 		var sub = value.substr(38);
   	var replace = sub.replace(/.png/, "_(");
     one++;
-		document.getElementById('pic3').src = replace + one + ').png';
+		document.getElementById('pic3').src = "./sprites/fused/" + replace + one + ').png';
     console.log(replace);
     console.log(one);
 }
@@ -2852,7 +2854,7 @@ function decrementValue()
 		var sub = value.substr(38);
   	var replace = sub.replace(/.png/, "_(");
     one--;
-		document.getElementById('pic3').src = replace + one + ').png';
+		document.getElementById('pic3').src = "./sprites/fused/" + replace + one + ').png';
     console.log(replace);
     console.log(one);
 }

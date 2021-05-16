@@ -89,7 +89,7 @@
   border-radius: 30%;
   border: solid;
   background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
-  width: 40%;
+  width: 60%;
 }
 
 #random3 {
@@ -231,7 +231,7 @@
 input#button__other{
 
   display: none;
-  
+
 }
 
 /* Pour mobile */
