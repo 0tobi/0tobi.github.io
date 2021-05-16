@@ -2816,12 +2816,12 @@ function getName2() {
   }
 typeweak();
 
-var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
+var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
 
-console.log(random);
+console.log(pokeList[randomlist]);
 
-if (random == '1.255'){
-  document.getElementById("button__other").style.display = 'block';
+if (randomlist == '1.255'){
+  document.getElementById("button__other").style.display = "block";
 }
 
 
