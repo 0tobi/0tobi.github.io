@@ -2643,16 +2643,6 @@ function getName() {
     document.getElementById("type1_mobile").src = "./types/" + "Inconnu.png";
   }
 typeweak();
-
-var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
-
-
-if(pokeList[randomlist] == "1.255"){
-  document.getElementById("button__other").style.display = "block";
-} else{
-  document.getElementById("button__other").style.display = "none";
-}
-
 }
 
 function getName2() {
@@ -2819,46 +2809,8 @@ function getName2() {
   }
 typeweak();
 
-var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
-
-
-if(pokeList[randomlist] == "1.255"){
-  document.getElementById("button__other").style.display = "block";
-} else{
-  document.getElementById("button__other").style.display = "none";
-}
-
-
 }
 
 function imageClick(url) {
   window.location = url;
-}
-
-/* Next poke */
-
-var one = 0;
-
-function incrementValue()
-{
-
-    var value = document.getElementById('pic3').src;
-		var sub = value.substr(38);
-  	var replace = sub.replace(/.png/, "_(");
-    one++;
-		document.getElementById('pic3').src = "./sprites/fused/" + replace + one + ').png';
-    console.log(replace);
-    console.log(one);
-}
-
-function decrementValue()
-{
-
-    var value = document.getElementById('pic3').src;
-		var sub = value.substr(38);
-  	var replace = sub.replace(/.png/, "_(");
-    one--;
-		document.getElementById('pic3').src = "./sprites/fused/" + replace + one + ').png';
-    console.log(replace);
-    console.log(one);
 }
