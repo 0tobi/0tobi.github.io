@@ -2643,6 +2643,13 @@ function getName() {
     document.getElementById("type1_mobile").src = "./types/" + "Inconnu.png";
   }
 typeweak();
+
+var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
+
+if (random == '1.255'){
+  document.getElementById("button__other").style.display = 'block';
+}
+
 }
 
 function getName2() {
@@ -2808,6 +2815,14 @@ function getName2() {
     document.getElementById("type2_mobile").src = "./types/" + "Inconnu.png";
   }
 typeweak();
+
+var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
+
+if (random == '1.255'){
+  document.getElementById("button__other").style.display = 'block';
+}
+
+
 }
 
 function imageClick(url) {
