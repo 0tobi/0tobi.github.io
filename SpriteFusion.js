@@ -2800,18 +2800,28 @@ function imageClick(url) {
 
 /* Next poke */
 
+var one = 0;
+
 function incrementValue()
 {
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
+
+    var value = document.getElementById('pic3').src;
+		var sub = value.substr(49);
+  	var replace = sub.replace(/.png/, "_(");
+    one++;
+		document.getElementById('pic3').src = replace + one + ').png';
+    console.log(replace);
+    console.log(one);
 }
 
 function decrementValue()
 {
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value--;
-    document.getElementById('number').value = value;
+
+    var value = document.getElementById('pic3').src;
+		var sub = value.substr(49);
+  	var replace = sub.replace(/.png/, "_(");
+    one--;
+		document.getElementById('pic3').src = replace + one + ').png';
+    console.log(replace);
+    console.log(one);
 }
