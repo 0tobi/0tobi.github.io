@@ -226,6 +226,12 @@
   margin-top: 90px;
 }
 
+/* Pour bouton next poke */
+
+.button__other{
+  display: none;
+}
+
 /* Pour mobile */
 
 #type1_mobile, #type2_mobile {
