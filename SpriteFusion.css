@@ -229,7 +229,9 @@
 /* Pour bouton next poke */
 
 input#button__other{
+
   display: none;
+  
 }
 
 /* Pour mobile */

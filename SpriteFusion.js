@@ -2837,7 +2837,7 @@ function incrementValue()
 {
 
     var value = document.getElementById('pic3').src;
-		var sub = value.substr(49);
+		var sub = value.substr(38);
   	var replace = sub.replace(/.png/, "_(");
     one++;
 		document.getElementById('pic3').src = replace + one + ').png';
@@ -2849,7 +2849,7 @@ function decrementValue()
 {
 
     var value = document.getElementById('pic3').src;
-		var sub = value.substr(49);
+		var sub = value.substr(38);
   	var replace = sub.replace(/.png/, "_(");
     one--;
 		document.getElementById('pic3').src = replace + one + ').png';
