@@ -2818,7 +2818,7 @@ typeweak();
 
 var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
 
-console.log(pokeList[randomlist]);
+console.log(imgName4);
 
 if (randomlist == '1.255'){
   document.getElementById("button__other").style.display = "block";
