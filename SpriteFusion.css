@@ -228,7 +228,7 @@
 
 /* Pour bouton next poke */
 
-.button__other{
+#button__other{
   display: none;
 }
 
