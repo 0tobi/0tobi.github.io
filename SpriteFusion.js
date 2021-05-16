@@ -2644,10 +2644,13 @@ function getName() {
   }
 typeweak();
 
-var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
+var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
 
-if (random == '1.255'){
-  document.getElementById("button__other").style.display = 'block';
+
+if(pokeList[randomlist] == "1.255"){
+  document.getElementById("button__other").style.display = "block";
+} else{
+  document.getElementById("button__other").style.display = "none";
 }
 
 }
@@ -2818,10 +2821,11 @@ typeweak();
 
 var randomlist = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
 
-console.log(imgName4);
 
-if (randomlist == '1.255'){
+if(pokeList[randomlist] == "1.255"){
   document.getElementById("button__other").style.display = "block";
+} else{
+  document.getElementById("button__other").style.display = "none";
 }
 
 
