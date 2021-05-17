@@ -1802,13 +1802,6 @@ var name2 = [
 ];
 
 
-
-/* Find the poke that need the next button */
-
-var pokeList = ["1.255", "178.145", "6.9"];
-
-/* */
-
 var rand = name1[Math.floor(Math.random() * name1.length)];
 var rand2 = name2[Math.floor(Math.random() * name2.length)];
 var checkBoxShiny = document.getElementById("shinies");
