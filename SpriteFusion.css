@@ -90,6 +90,7 @@
   border: solid;
   background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
   width: 60%;
+  margin-top: 15px;
 }
 
 #random3 {
