@@ -35,12 +35,6 @@
   margin-top: 15px;
 }
 
-.pokemon__icons1{
-  position: absolute;
-  top: 35px;
-  left: 415px;
-}
-
 #random1 {
 
   box-shadow: 0px 5px #312f2f;
@@ -71,12 +65,17 @@
   transform: translateY(4px);
 }
 
+.pokemon__icons1 {
+  display: inline-flex;
+}
+
 #icon1, #icon1-alola, #icon1-galar, #icon1-mega {
 
   image-rendering: optimizespeed;
   image-rendering: pixelated;
   display: none;
   width: 150%;
+  padding: 0 15px;
 
 }
 
@@ -86,6 +85,7 @@
   image-rendering: pixelated;
   display: none;
   width: 150%;
+  padding: 0 15px;
 }
 
 /* Pour partie milieu */
@@ -189,12 +189,6 @@
   align-items: center;
 }
 
-.pokemon__icons2 {
-  position: absolute;
-  top: 35px;
-  right: 445px;
-}
-
 #random2 {
 
   box-shadow: 0px 5px #312f2f;
@@ -225,13 +219,17 @@
   transform: translateY(4px);
 }
 
+.pokemon__icon2  {
+  display: inline-flex;
+}
+
 #icon2, #icon2-alola, #icon2-galar, #icon2-mega {
 
   image-rendering: optimizespeed;
   image-rendering: pixelated;
   display: none;
   width: 150%;
-
+  padding: 0 15px;
 }
 
 #icon2-megax, #icon2-megay, #icon2-alola1, #icon2-galar1, #icon2-gigan, #icon2-altform, #icon2-altform2, #icon2-altgalarform2, #icon2-altform3, #icon2-altform4, #icon2-altform5 {
@@ -240,6 +238,7 @@
   image-rendering: pixelated;
   display: none;
   width: 150%;
+  padding: 0 15px;
 }
 
 /* Pour faiblesses */
@@ -276,12 +275,6 @@
     background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
     width: 40%;
     margin-top: 15px;
-  }
-  
-  .pokemon__icons1{
-    position: absolute;
-    top: 35px;
-    left: 415px;
   }
   
   #random1 {
@@ -418,12 +411,6 @@
     background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
     width: 40%;
     margin-top: 15px;
-  }
-  
-  .pokemon__icons2 {
-    position: absolute;
-    top: 35px;
-    right: 445px;
   }
   
   #random2 {
