@@ -18,6 +18,13 @@
   margin-left: 2.5%;
 }
 
+.col-sm.flex1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
 #pic1 {
   image-rendering: optimizespeed;
   image-rendering: pixelated;
@@ -82,6 +89,13 @@
 }
 
 /* Pour partie milieu */
+
+.col-sm.flex3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 #pic3 {
 
@@ -166,6 +180,13 @@
   background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
   width: 40%;
   margin-top: 15px;
+}
+
+.col-sm.flex2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .pokemon__icons2 {
@@ -322,6 +343,8 @@
     width: 60%;
     margin-top: 15px;
   }
+
+  
   
   #random3 {
   
