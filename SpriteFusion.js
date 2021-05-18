@@ -2408,14 +2408,6 @@ function randomImg3() {
 
   typeweak();
 
-  /* Previous/Next button display block */
-
-  var random = pokeList.indexOf(pokeList[Math.floor(Math.random() * pokeList.length)]);
-
-  if (random == '1.255'){
-    document.getElementById("button__other").style.display = 'block';
-  }
-
 
 }
 // Mettre en Shiny
