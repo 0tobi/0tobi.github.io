@@ -9,6 +9,7 @@
   text-align: center;
 }
 
+@media (max-width: 1920px) {
 /* Pour partie gauche */
 
 #select1 {
@@ -228,3 +229,5 @@
 #type1_mobile, #type2_mobile {
   display: none;
 }
+}
+
