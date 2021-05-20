@@ -2421,9 +2421,9 @@ function setShiny() { // Get the checkbox
     var test = document.getElementById("pic3").src;
     var test3 = document.getElementById("pic1").src;
     var test4 = document.getElementById("pic2").src;
-    var res = test.substr(31);
-    var res3 = test3.substr(31);
-    var res4 = test4.substr(31);
+    var res = test.substr(30);
+    var res3 = test3.substr(30);
+    var res4 = test4.substr(30);
     var res2 = res.replace(".png", "s.png");
     var res5 = res3.replace(".png", "s.png");
     var res6 = res4.replace(".png", "s.png");
@@ -2439,9 +2439,9 @@ function setShiny() { // Get the checkbox
     var test2 = document.getElementById("pic3").src;
     var test5 = document.getElementById("pic1").src;
     var test6 = document.getElementById("pic2").src;
-    var res3 = test2.substr(33);
-    var res7 = test5.substr(33);
-    var res8 = test6.substr(33);
+    var res3 = test2.substr(30);
+    var res7 = test5.substr(30);
+    var res8 = test6.substr(30);
     var res4 = res3.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
     var res9 = res7.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
     var res10 = res8.replace(/s.png/, ".png") || (/as.png/, "a.png") || (/gs.png/, "g.png");
