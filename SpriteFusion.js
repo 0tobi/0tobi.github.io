@@ -2421,9 +2421,9 @@ function setShiny() { // Get the checkbox
     var test = document.getElementById("pic3").src;
     var test3 = document.getElementById("pic1").src;
     var test4 = document.getElementById("pic2").src;
-    var res = test.substr(65);
-    var res3 = test3.substr(65);
-    var res4 = test4.substr(65);
+    var res = test.substr(50);
+    var res3 = test3.substr(50);
+    var res4 = test4.substr(50);
     var res2 = res.replace(".png", "s.png");
     var res5 = res3.replace(".png", "s.png");
     var res6 = res4.replace(".png", "s.png");
