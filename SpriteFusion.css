@@ -49,7 +49,7 @@ div#pokemon__fusion {
   margin-top: 15px;
 }
 
-#pic1::before {
+#pic1::after {
   content: "";
   position: absolute;
   top: 0;
