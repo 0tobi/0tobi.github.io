@@ -45,9 +45,6 @@ div#pokemon__fusion {
 #pic1 {
   image-rendering: optimizespeed;
   image-rendering: pixelated;
-  border-radius: 30%;
-  border: solid;
-  background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
   width: 40%;
   margin-top: 15px;
 }
@@ -121,9 +118,6 @@ div#pokemon__fusion {
 
   image-rendering: optimizespeed;
   image-rendering: pixelated;
-  border-radius: 30%;
-  border: solid;
-  background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
   width: 60%;
   margin-top: 15px;
 }
@@ -203,9 +197,6 @@ div#pokemon__fusion {
 #pic2 {
   image-rendering: optimizespeed;
   image-rendering: pixelated;
-  border-radius: 30%;
-  border: solid;
-  background: linear-gradient(to left, #c62d1f 50%, #ffffff 50%);
   width: 40%;
   margin-top: 15px;
 }
