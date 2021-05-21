@@ -3821,8 +3821,6 @@ if (iconalolares1 == "19a.png" || iconalolares1 == "20a.png" || iconalolares1 ==
     document.getElementById("select1").value = "88";
   } else if (res7 === "89.png") {
     document.getElementById("select1").value = "89";
-  } else if (res7 === "460.png") {
-    document.getElementById("select1").value = "460";
   }
   typeweak();
 }
@@ -3970,6 +3968,8 @@ document.getElementById("icon1-mega").style.display = "block";
   } else if (res7 === "334.png") {
 
     document.getElementById("select1").value = "334";
+  } else if (res7 === "460.png") {
+    document.getElementById("select1").value = "460";
   }
 
 
