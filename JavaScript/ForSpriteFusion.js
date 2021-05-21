@@ -3970,7 +3970,10 @@ document.getElementById("icon1-mega").style.display = "block";
     document.getElementById("select1").value = "334";
   } else if (res7 === "460.png") {
     document.getElementById("select1").value = "460";
+  }  else if (res7 === "306.png") {
+    document.getElementById("select1").value = "306";
   }
+
 
 
   typeweak();
@@ -4573,6 +4576,9 @@ function iconMega1() {
 
       } else if (alolares3 === "334m.png") {
         document.getElementById("select1").value = "334m";
+
+      }  else if (alolares3 === "306m.png") {
+        document.getElementById("select1").value = "306m";
 
       }
 
