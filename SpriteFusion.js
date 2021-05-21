@@ -1839,6 +1839,13 @@ function randomImg() {
   document.getElementById("icon1-galar").src = "";
   document.getElementById("icon1-alola1").src = "";
   document.getElementById("icon1-galar1").src = "";
+  document.getElementById("icon1-gigan").src = "";
+  document.getElementById("icon1-altform").src = "";
+  document.getElementById("icon1-altform2").src = "";
+  document.getElementById("icon1-altgalarform2").src = "";
+  document.getElementById("icon1-altform3").src = "";
+  document.getElementById("icon1-altform4").src = "";
+  document.getElementById("icon1-altform5").src = "";
 
 
   if (test == 19 || test == 20 || test == 26 || test == 27 || test == 28 || test == 37 || test == 38 || test == 50 || test == 51 || test == 53 || test == 74 || test == 75 || test == 76 || test == 88 || test == 89 || test == 103 || test == 105) {
@@ -1962,6 +1969,21 @@ function randomImg2() {
   document.getElementById("alola").innerHTML = "";
   document.getElementById("galar").innerHTML = "";
   document.getElementById("megaoui").innerHTML = "";
+
+  document.getElementById("icon2-mega").src = "";
+  document.getElementById("icon2-megax").src = "";
+  document.getElementById("icon2-megay").src = "";
+  document.getElementById("icon2-alola").src = "";
+  document.getElementById("icon2-galar").src = "";
+  document.getElementById("icon2-alola1").src = "";
+  document.getElementById("icon2-galar1").src = "";
+  document.getElementById("icon2-gigan").src = "";
+  document.getElementById("icon2-altform").src = "";
+  document.getElementById("icon2-altform2").src = "";
+  document.getElementById("icon2-altgalarform2").src = "";
+  document.getElementById("icon2-altform3").src = "";
+  document.getElementById("icon2-altform4").src = "";
+  document.getElementById("icon2-altform5").src = "";
 
 
   if (test2 === 19 || test2 === 20 || test2 === 26 || test2 === 27 || test2 === 28 || test2 === 37 || test2 === 38 || test2 === 50 || test2 === 52 || test2 === 51 || test2 === 53 || test2 === 74 || test2 === 75 || test2 === 76 || test2 === 88 || test2 === 89 || test2 === 103 || test2 === 105) {
@@ -2093,7 +2115,13 @@ function randomImg3() {
   document.getElementById("icon1-alola1").src = "";
   document.getElementById("icon1-galar1").src = "";
   document.getElementById("icon1-gigan").src = "";
-  
+  document.getElementById("icon1-altform").src = "";
+  document.getElementById("icon1-altform2").src = "";
+  document.getElementById("icon1-altgalarform2").src = "";
+  document.getElementById("icon1-altform3").src = "";
+  document.getElementById("icon1-altform4").src = "";
+  document.getElementById("icon1-altform5").src = "";
+
   document.getElementById("icon2-mega").src = "";
   document.getElementById("icon2-megax").src = "";
   document.getElementById("icon2-megay").src = "";
@@ -2102,19 +2130,14 @@ function randomImg3() {
   document.getElementById("icon2-alola1").src = "";
   document.getElementById("icon2-galar1").src = "";
   document.getElementById("icon2-gigan").src = "";
-
-  document.getElementById("icon1-altform").src = "";
-  document.getElementById("icon1-altform2").src = "";
-  document.getElementById("icon1-altgalarform2").src = "";
-  document.getElementById("icon1-altform3").src = "";
-  document.getElementById("icon1-altform4").src = "";
-  document.getElementById("icon1-altform5").src = "";
   document.getElementById("icon2-altform").src = "";
   document.getElementById("icon2-altform2").src = "";
   document.getElementById("icon2-altgalarform2").src = "";
   document.getElementById("icon2-altform3").src = "";
   document.getElementById("icon2-altform4").src = "";
   document.getElementById("icon2-altform5").src = "";
+
+
 
   
 
