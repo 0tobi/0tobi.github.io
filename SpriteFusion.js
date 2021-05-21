@@ -2510,6 +2510,12 @@ function getName() {
   document.getElementById("icon1-alola1").src = "";
   document.getElementById("icon1-galar1").src = "";
   document.getElementById("icon1-gigan").src = "";
+  document.getElementById("icon1-altform").src = "";
+  document.getElementById("icon1-altform2").src = "";
+  document.getElementById("icon1-altgalarform2").src = "";
+  document.getElementById("icon1-altform3").src = "";
+  document.getElementById("icon1-altform4").src = "";
+  document.getElementById("icon1-altform5").src = "";
   
   if (test == 889 ||test == 888 || test == 877 || test == 875 || test == 800 || test == 746 || test == 745 || test == 741 || test == 718 || test == 658 || test == 720 || test == 648 || test == 647 || test == 645 || test == 642 || test == 641 || test == 586 || test == 585 || test == 555 || test == 550 || test == 351 || test == 386 || test == 249 || test == 412 || test == 413 || test == 421 || test == 422 || test == 423 || test == 479 || test == 487 || test == 492){
     document.getElementById("icon1-altform").style.display = "block";
@@ -2677,6 +2683,12 @@ function getName2() {
   document.getElementById("icon2-alola1").src = "";
   document.getElementById("icon2-galar1").src = "";
   document.getElementById("icon2-gigan").src = "";
+  document.getElementById("icon2-altform").src = "";
+  document.getElementById("icon2-altform2").src = "";
+  document.getElementById("icon2-altgalarform2").src = "";
+  document.getElementById("icon2-altform3").src = "";
+  document.getElementById("icon2-altform4").src = "";
+  document.getElementById("icon2-altform5").src = "";
 
 
   if (test2 == 889 ||test2 == 888 || test2 == 877 || test2 == 875 || test2 == 800 || test2 == 746 || test2 == 745 || test2 == 741 || test2 == 718 || test2 == 658 || test2 == 720 || test2 == 648 || test2 == 647 || test2 == 645 || test2 == 642 || test2 == 641 || test2 == 586 || test2 == 585 || test2 == 555 || test2 == 550 || test2 == 351 || test2 == 386 || test2 == 249 || test2 == 412 || test2 == 413 || test2 == 421 || test2 == 422 || test2 == 423 || test2 == 479 || test2 == 487 || test2 == 492){
