@@ -3599,7 +3599,7 @@ function typeweak() {
     }
   
   
-  }
+}
 
 // Icon 1
 
