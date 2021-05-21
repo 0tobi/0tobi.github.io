@@ -4443,6 +4443,10 @@ function iconMega1() {
     
         document.getElementById("select1").value = "3m";
     
+      } else if (alolares3 === "460m.png") {
+    
+        document.getElementById("select1").value = "460m";
+    
       } else if (alolares3 === "15m.png") {
     
         document.getElementById("select1").value = "15m";
