@@ -263,6 +263,9 @@ div#pokemon__fusion {
 
 /* Pour faiblesses */
 
+.row.weaknesses {
+ height: 0% !important;
+}
 
 /* Pour mobile */
 }
