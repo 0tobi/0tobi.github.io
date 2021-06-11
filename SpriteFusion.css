@@ -18,7 +18,7 @@
 
 /* Header */
 header{
-  height: 100vh;
+  height: 50vh;
   background: pink;
   display: flex;
   flex-direction: row;
